@@ -1,5 +1,5 @@
 <!-- #done -->
-<div class="modal fade" id="confirmAction" style="--bs-modal-width:460px" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="confirmActionLabel" aria-hidden="true">
+<div class="modal fade" id="confirmAction" style="--bs-modal-width:460px" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-body d-flex align-items-start gap-3 p-4">

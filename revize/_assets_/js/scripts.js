@@ -16,8 +16,7 @@
     $body = $("body"),
     $html = $("html"),
     $rzBarWrap = $("#rz-bar-wrap"),
-    $rzBtnsContainer = $(".rz-btns-container"),
-    $stickyWrapper = $('[data-sticky="true"]');
+    $rzBtnsContainer = $(".rz-btns-container");
 
   // RZ Class + remove revize bar
   if (typeof RZ !== "undefined") {
@@ -97,7 +96,7 @@
 
   // header
   var scrollTop = $(window).scrollTop(),
-    stickyHeader = $('[data-sticy="true"]'),
+    stickyHeader = $('[data-sticky="true"]'),
     // #todo stickyHeader.offset() is undefined error
     elementOffset = stickyHeader.offset().top,
     distance = elementOffset - scrollTop,

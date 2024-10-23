@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-bottom mx-auto border-top border-5 border-primary" tabindex="-1" id="offcanvasFriendly" aria-labelledby="offcanvasFriendlyLabel" style="--bs-offcanvas-height:100vh;width:100%;">
+<div class="offcanvas offcanvas-bottom mx-auto border-top border-5 border-primary" tabindex="-1" id="offcanvasFriendly" style="--bs-offcanvas-height:100vh;width:100%;">
 	<div class="offcanvas-header bg-light">
 		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
@@ -34,8 +34,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->
@@ -49,8 +49,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->
@@ -64,8 +64,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->

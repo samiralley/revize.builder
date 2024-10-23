@@ -51,8 +51,8 @@
 	--bs-gray-800: #3b3b3b;
 	--bs-gray-900: #222222;
 	--bs-primary: #4900ff;
-	--bs-secondary: #7f7f7f;
-	--bs-success: #45a57a;
+	--bs-secondary: #757575;
+	--bs-success: #368161;
 	--bs-info: #0dcaf0;
 	--bs-warning: #ffc107;
 	--bs-danger: #dc3545;
@@ -60,7 +60,7 @@
 	--bs-dark: #202020;
 	--bs-primary-rgb: 73, 0, 255;
 	--bs-secondary-rgb: 127, 127, 127;
-	--bs-success-rgb: 69, 165, 122;
+	--bs-success-rgb: 54, 129, 97;
 	--bs-info-rgb: 13, 202, 240;
 	--bs-warning-rgb: 255, 193, 7;
 	--bs-danger-rgb: 220, 53, 69;
@@ -1452,7 +1452,6 @@ button {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	color: ;
 	border-radius: 100px;
 	outline: 2px solid;
 	outline-offset: 1px;
@@ -1773,7 +1772,7 @@ button {
 	--bs-nav-underline-gap: 1rem;
 	--bs-nav-underline-border-width: 0.125rem;
 	--bs-nav-underline-link-active-color: var(--bs-emphasis-color);
-	--bs-nav-link-color: var(--bs-gray-600);
+	--bs-nav-link-color: var(--bs-gray-700);
 	--bs-nav-link-hover-color: var(--bs-gray-800);
 }
 

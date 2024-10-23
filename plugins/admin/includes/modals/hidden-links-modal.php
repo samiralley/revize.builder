@@ -1,4 +1,4 @@
-<div class="offcanvas offcanvas-bottom mx-auto border-top border-5 border-primary" tabindex="-1" id="offcanvasHidden" aria-labelledby="offcanvasHiddenLabel" style="--bs-offcanvas-height:100vh;width:100%;">
+<div class="offcanvas offcanvas-bottom mx-auto border-top border-5 border-primary" tabindex="-1" id="offcanvasHidden" style="--bs-offcanvas-height:100vh;width:100%;">
 	<div class="offcanvas-header bg-light">
 		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>

@@ -161,8 +161,8 @@
 			</div><!-- /.right-col-header -->
 
 			<div class="rz-meta-box p-4 border-bottom">
-				<form class="w-100 align-self-center position-relative" role="search" aria-label="Elements Search" aria-labelledby="Search Site">
-					<input class="form-control cursor-pointer ps-3" type="search" placeholder="Filter..." autocomplete="off">
+				<form class="w-100 align-self-center position-relative" role="search" aria-label="Elements Search">
+					<input aria-label="Filter" class="form-control cursor-pointer ps-3" type="search" placeholder="Filter..." autocomplete="off">
 					<button class="btn btn-link position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center" style="height:1rem "></span><i class="bi bi-search"></i></button>
 				</form>
 			</div><!-- /.rz-meta-box -->

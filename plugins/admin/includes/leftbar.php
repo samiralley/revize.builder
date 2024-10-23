@@ -1,4 +1,4 @@
-<div class="left-col-wrap small col-2 d-flex flex-column border-end offcanvas-lg offcanvas-end" tabindex="-1" id="rznavOffcanvas" aria-labelledby="rznavOffcanvasLabel" style="width:260px">
+<div class="left-col-wrap small col-2 d-flex flex-column border-end offcanvas-lg offcanvas-end" tabindex="-1" id="rznavOffcanvas" style="width:260px">
 	<div class="left-col-inner overflow-auto flex-fill d-flex flex-column" >
 		
 			 <div class="d-flex flex-column">

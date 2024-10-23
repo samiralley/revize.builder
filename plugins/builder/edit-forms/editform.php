@@ -24,14 +24,14 @@
 					<label class="form-label w-100">Row options for columns</label>
 					<div class="row-btns-options btn-group mb-3" role="group" aria-label="Rows options">
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio1" autocomplete="off" checked>
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2 column" class="btn btn-outline-light" for="btnradio1">
+						<label aria-label="2 column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2 column" class="btn btn-outline-light" for="btnradio1">
 							<svg width="32" height="28" viewBox="0 0 69 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="69" height="28" rx="6" fill="#111" />
 							</svg>
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio2" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2 equal" class="btn btn-outline-light" for="btnradio2">
+						<label aria-label="2 equal column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2 equal" class="btn btn-outline-light" for="btnradio2">
 							<svg width="32" height="28" viewBox="0 0 69 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="33" height="28" rx="6" fill="#111" />
 								<rect x="36" width="33" height="28" rx="6" fill="#111" />
@@ -39,7 +39,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio3" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="8/12 4/12" class="btn btn-outline-light" for="btnradio3">
+						<label aria-label="8/12 4/12 layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="8/12 4/12" class="btn btn-outline-light" for="btnradio3">
 							<svg width="32" height="28" viewBox="0 0 68 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="43" height="28" rx="6" fill="#111" />
 								<rect x="47" width="21" height="28" rx="6" fill="#111" />
@@ -47,7 +47,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio4" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="3 equal" class="btn btn-outline-light" for="btnradio4">
+						<label aria-label="3 equal column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="3 equal" class="btn btn-outline-light" for="btnradio4">
 							<svg width="32" height="28" viewBox="0 0 66 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="20" height="28" rx="6" fill="#111" />
 								<rect x="23" width="20" height="28" rx="6" fill="#111" />
@@ -56,7 +56,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio5" autocomplete="off">
-						<label class="btn btn-outline-light" for="btnradio5">
+						<label aria-label="4 equal column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="4 equal" class="btn btn-outline-light" for="btnradio5">
 							<svg data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="4 equal" width="32" height="28" viewBox="0 0 65 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="14" height="28" rx="6" fill="#111" />
 								<rect x="17" width="14" height="28" rx="6" fill="#111" />
@@ -66,7 +66,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio6" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="4/12 8/12" class="btn btn-outline-light" for="btnradio6">
+						<label aria-label="4/12 8/12 layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="4/12 8/12" class="btn btn-outline-light" for="btnradio6">
 							<svg width="32" height="28" viewBox="0 0 67 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="20" height="28" rx="6" fill="#111" />
 								<rect x="23" width="44" height="28" rx="6" fill="#111" />
@@ -74,7 +74,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio7" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="3/12 6/12 3/12" class="btn btn-outline-light" for="btnradio7"><svg width="32" height="28" viewBox="0 0 67 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<label aria-label="3/12 6/12 3/12 layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="3/12 6/12 3/12" class="btn btn-outline-light" for="btnradio7"><svg width="32" height="28" viewBox="0 0 67 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="15" height="28" rx="6" fill="#111" />
 								<rect x="52" width="15" height="28" rx="6" fill="#111" />
 								<rect x="18" width="31" height="28" rx="6" fill="#111" />
@@ -82,7 +82,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio8" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="5 equal" class="btn btn-outline-light" for="btnradio8"><svg width="32" height="28" viewBox="0 0 60 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<label aria-label="5 equal column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="5 equal" class="btn btn-outline-light" for="btnradio8"><svg width="32" height="28" viewBox="0 0 60 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="10" height="28" rx="5" fill="#111" />
 								<rect x="12" width="10" height="28" rx="5" fill="#111" />
 								<rect x="24" width="10" height="28" rx="5" fill="#111" />
@@ -92,7 +92,7 @@
 						</label>
 						
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio9" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="6 equal" class="btn btn-outline-light" for="btnradio9"><svg width="32" height="28" viewBox="0 0 70 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<label aria-label="6 equal column layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="6 equal" class="btn btn-outline-light" for="btnradio9"><svg width="32" height="28" viewBox="0 0 70 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="10" height="28" rx="5" fill="#111" />
 								<rect x="12" width="10" height="28" rx="5" fill="#111" />
 								<rect x="24" width="10" height="28" rx="5" fill="#111" />
@@ -103,7 +103,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio10" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2/12 8/12 2/12" class="btn btn-outline-light" for="btnradio10"><svg width="32" height="28" viewBox="0 0 60 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<label aria-label="2/12 8/12 2/12 layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2/12 8/12 2/12" class="btn btn-outline-light" for="btnradio10"><svg width="32" height="28" viewBox="0 0 60 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="10" height="28" rx="5" fill="#111" />
 								<rect x="50" width="10" height="28" rx="5" fill="#111" />
 								<rect x="13" width="34" height="28" rx="6" fill="#111" />
@@ -111,7 +111,7 @@
 						</label>
 
 						<input type="radio" class="btn-check btn-check-default" name="btnradio" id="btnradio11" autocomplete="off">
-						<label data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2/12 2/12 2/12 6/12" class="btn btn-outline-light" for="btnradio11"><svg width="32" height="28" viewBox="0 0 69 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<label aria-label="2/12 2/12 2/12 6/12 layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="2/12 2/12 2/12 6/12" class="btn btn-outline-light" for="btnradio11"><svg width="32" height="28" viewBox="0 0 69 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<rect width="10" height="28" rx="5" fill="#111" />
 								<rect x="13" width="10" height="28" rx="5" fill="#111" />
 								<rect x="26" width="10" height="28" rx="5" fill="#111" />
@@ -131,7 +131,7 @@
 						</div>
 						<div class="mb-3 col-lg-12">
 							<label class="form-label" for="content">Content RTE</label>
-							<textarea class="form-control" id="Content" rows="10"></textarea>
+							<textarea class="form-control" id="content" rows="10"></textarea>
 						</div>
 						<div class="mb-3 col-lg-12">
 							<div class="form-check form-check-inline">
@@ -162,7 +162,7 @@
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="tabsLayoutOptions" id="tabsDefaultLayout" autocomplete="off" checked>
 								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="tabsDefaultLayout">
-									<img loading="lazy" src="../../plugins/builder/assets/images/tab-default.png" class="w-75 m-auto rounded-1">
+									<img alt="" loading="lazy" src="../../plugins/builder/assets/images/tab-default.png" class="w-75 m-auto rounded-1">
 									<span class="mt-auto">Tabs</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -171,7 +171,7 @@
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="tabsLayoutOptions" id="tabsPillsLayout" autocomplete="off" checked>
 								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="tabsPillsLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/tab-pills.png" class="w-75 m-auto rounded-1">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/tab-pills.png" class="w-75 m-auto rounded-1">
 									<span class="mt-auto">Pills</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -180,7 +180,7 @@
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="tabsLayoutOptions" id="tabsUnderlineLayout" autocomplete="off" checked>
 								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="tabsUnderlineLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/tab-underline.png" class="w-75 m-auto rounded-1">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/tab-underline.png" class="w-75 m-auto rounded-1">
 									<span class="mt-auto">Underline</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -200,219 +200,219 @@
 						<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 mb-5">
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType1" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType1">
-									<img loading="lazy" src="_assets_/images/borders/arc-divider.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Arc divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType1">
+									<img alt="" loading="lazy" src="_assets_/images/borders/arc-divider.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType2" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType2">
-									<img loading="lazy" src="_assets_/images/borders/arch-divider.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Arch divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType2">
+									<img alt="" loading="lazy" src="_assets_/images/borders/arch-divider.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType3" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType3">
-									<img loading="lazy" src="_assets_/images/borders/arrow.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Arrow divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType3">
+									<img alt="" loading="lazy" src="_assets_/images/borders/arrow.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType4" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType4">
-									<img loading="lazy" src="_assets_/images/borders/book.svg" class="w-75 mauto rounded1001" ->
+								<label aria-label="Book divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType4">
+									<img alt="" loading="lazy" src="_assets_/images/borders/book.svg" class="w-75 mauto rounded1001" ->
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType5" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType5">
-									<img loading="lazy" src="_assets_/images/borders/bubble-divider.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Bubble divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType5">
+									<img alt="" loading="lazy" src="_assets_/images/borders/bubble-divider.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType6" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType6">
-									<img loading="lazy" src="_assets_/images/borders/bubble-side-divider.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Bubble side divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType6">
+									<img alt="" loading="lazy" src="_assets_/images/borders/bubble-side-divider.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType7" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType7">
-									<img loading="lazy" src="_assets_/images/borders/curve-divider.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Curve divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType7">
+									<img alt="" loading="lazy" src="_assets_/images/borders/curve-divider.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType8" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType8">
-									<img loading="lazy" src="_assets_/images/borders/curve.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Curve divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType8">
+									<img alt="" loading="lazy" src="_assets_/images/borders/curve.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType9" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType9">
-									<img loading="lazy" src="_assets_/images/borders/double-bubble.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Double bubble divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType9">
+									<img alt="" loading="lazy" src="_assets_/images/borders/double-bubble.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType10" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType10">
-									<img loading="lazy" src="_assets_/images/borders/frame-4.svg" class="w-75 100 r-ounded-1">
+								<label aria-label="Frame 4 divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType10">
+									<img alt="" loading="lazy" src="_assets_/images/borders/frame-4.svg" class="w-75 100 r-ounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType11" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType11">
-									<img loading="lazy" src="_assets_/images/borders/grunge-divider-3.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Grunge divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType11">
+									<img alt="" loading="lazy" src="_assets_/images/borders/grunge-divider-3.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType12" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType12">
-									<img loading="lazy" src="_assets_/images/borders/intersecting-curves.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Intersecting curves divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType12">
+									<img alt="" loading="lazy" src="_assets_/images/borders/intersecting-curves.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType13" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType13">
-									<img loading="lazy" src="_assets_/images/borders/intersecting-tilt-angles.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Intersecting tilt angles divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType13">
+									<img alt="" loading="lazy" src="_assets_/images/borders/intersecting-tilt-angles.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType14" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType14">
-									<img loading="lazy" src="_assets_/images/borders/intersecting-wave-layers.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Intersecting wave layers divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType14">
+									<img alt="" loading="lazy" src="_assets_/images/borders/intersecting-wave-layers.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType15" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType15">
-									<img loading="lazy" src="_assets_/images/borders/intersecting-waves-scattered.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Intersecting waves scattered divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType15">
+									<img alt="" loading="lazy" src="_assets_/images/borders/intersecting-waves-scattered.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType16" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType16">
-									<img loading="lazy" src="_assets_/images/borders/intersecting-waves-split.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Intersecting waves split divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType16">
+									<img alt="" loading="lazy" src="_assets_/images/borders/intersecting-waves-split.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType17" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType18">
-									<img loading="lazy" src="_assets_/images/borders/layered-arch.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Layered arch divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType17">
+									<img alt="" loading="lazy" src="_assets_/images/borders/layered-arch.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType19" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType19">
-									<img loading="lazy" src="_assets_/images/borders/layered-curves.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Layered curves divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType19">
+									<img alt="" loading="lazy" src="_assets_/images/borders/layered-curves.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType20" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType20">
-									<img loading="lazy" src="_assets_/images/borders/layered-slants.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Layered slants divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType20">
+									<img alt="" loading="lazy" src="_assets_/images/borders/layered-slants.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType21" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType21">
-									<img loading="lazy" src="_assets_/images/borders/layered-triangle.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Layered triangle divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType21">
+									<img alt="" loading="lazy" src="_assets_/images/borders/layered-triangle.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType22" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType22">
-									<img loading="lazy" src="_assets_/images/borders/layered-wave.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Layered wave divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType22">
+									<img alt="" loading="lazy" src="_assets_/images/borders/layered-wave.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType23" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType23">
-									<img loading="lazy" src="_assets_/images/borders/mountain-divider.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Mountain divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType23">
+									<img alt="" loading="lazy" src="_assets_/images/borders/mountain-divider.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType24" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType24">
-									<img loading="lazy" src="_assets_/images/borders/oval-halves-inverse.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Oval halves inverse divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType24">
+									<img alt="" loading="lazy" src="_assets_/images/borders/oval-halves-inverse.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType25" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType25">
-									<img loading="lazy" src="_assets_/images/borders/oval-halves.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Oval halves divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType25">
+									<img alt="" loading="lazy" src="_assets_/images/borders/oval-halves.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType26" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType26">
-									<img loading="lazy" src="_assets_/images/borders/pyramid-divider.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Pyramid divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType26">
+									<img alt="" loading="lazy" src="_assets_/images/borders/pyramid-divider.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType27" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType27">
-									<img loading="lazy" src="_assets_/images/borders/slant-divider.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Slant divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType27">
+									<img alt="" loading="lazy" src="_assets_/images/borders/slant-divider.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType28" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType28">
-									<img loading="lazy" src="_assets_/images/borders/slope-asymmetrical-divider.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Slope asymmetrical divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType28">
+									<img alt="" loading="lazy" src="_assets_/images/borders/slope-asymmetrical-divider.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType29" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType29">
-									<img loading="lazy" src="_assets_/images/borders/split.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Split divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType29">
+									<img alt="" loading="lazy" src="_assets_/images/borders/split.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType30" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType30">
-									<img loading="lazy" src="_assets_/images/borders/triangle-slope-divider-inverse.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Triangle slope inverse divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType30">
+									<img alt="" loading="lazy" src="_assets_/images/borders/triangle-slope-divider-inverse.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType31" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType31">
-									<img loading="lazy" src="_assets_/images/borders/waves-2-large.svg" class="w-100 m-auto rounded-1">
+								<label aria-label="Waves 2 large divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType31">
+									<img alt="" loading="lazy" src="_assets_/images/borders/waves-2-large.svg" class="w-100 m-auto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
 							<div class="d-flex flex-columns">
 								<input type="radio" class="btn-check" name="borderOptions" id="borderType32" autocomplete="off">
-								<label class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType32">
-									<img loading="lazy" src="_assets_/images/borders/waves.svg" class="w-75 mauto rounded-1">
+								<label aria-label="Waves divider border" class="w-100 btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="borderType32">
+									<img alt="" loading="lazy" src="_assets_/images/borders/waves.svg" class="w-75 mauto rounded-1">
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
 							</div>
@@ -422,8 +422,8 @@
 						<div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3 mb-5">
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="accordionLayoutOptions" id="accordionBoxedLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="accordionBoxedLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/accordion.png" class="w-50 m-auto rounded-1">
+								<label aria-label="Default accordion layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="accordionBoxedLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/accordion.png" class="w-50 m-auto rounded-1">
 									<span class="mt-auto">Default</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -431,8 +431,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="accordionLayoutOptions" id="accordionFlushLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="accordionFlushLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/accordion-flush.png" class="w-50 m-auto rounded-1">
+								<label aria-label="Flush accordion layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="accordionFlushLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/accordion-flush.png" class="w-50 m-auto rounded-1">
 									<span class="mt-auto">Flush</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -445,8 +445,8 @@
 						<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mb-5">
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="cardLayoutOptions" id="verticalLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="verticalLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/card-vertical.jpg" class="w-75 m-auto rounded-1">
+								<label aria-label="Vertical card layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="verticalLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/card-vertical.jpg" class="w-75 m-auto rounded-1">
 									<span class="mt-auto">Vertical</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -454,8 +454,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="cardLayoutOptions" id="horizontalLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="horizontalLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/card-horizontal.jpg" class="m-auto rounded-1">
+								<label aria-label="Horizontal card layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="horizontalLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/card-horizontal.jpg" class="m-auto rounded-1">
 									<span class="mt-auto">Horizontal</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -463,8 +463,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="cardLayoutOptions" id="noimgLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="noimgLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/card-no-img.jpg" class="m-auto rounded-1">
+								<label aria-label="No image card layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="noimgLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/card-no-img.jpg" class="m-auto rounded-1">
 									<span>No Image</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -472,8 +472,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="cardLayoutOptions" id="overlayLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="overlayLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/card-overlay.jpg" class="m-auto rounded-1">
+								<label aria-label="Overlay card layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="overlayLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/card-overlay.jpg" class="m-auto rounded-1">
 									<span class="mt-auto">Overlay</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -487,8 +487,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="navOptions" id="qlinkHorizontalStackedLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkHorizontalStackedLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/qlink-horizontal-stacked.png" class="m-auto">
+								<label aria-label="Stacked image quick link layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkHorizontalStackedLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/qlink-horizontal-stacked.png" class="m-auto">
 									<span class="mt-auto">Stacked Image</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -496,8 +496,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="navOptions" id="qlinkHorizontalLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkHorizontalLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/qlink-horizontal.png" class="m-auto">
+								<label aria-label="Horizontal quick link layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkHorizontalLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/qlink-horizontal.png" class="m-auto">
 									<span class="mt-auto">Horizontal</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -505,8 +505,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="navOptions" id="qlinkOverflowLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkOverflowLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/qlink-overflow.png" class="m-auto">
+								<label aria-label="Overflow quick link layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkOverflowLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/qlink-overflow.png" class="m-auto">
 									<span>Overflow</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -514,8 +514,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="navOptions" id="qlinkOverflowLeftLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkOverflowLeftLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/qlink-overflow-left.png" class="m-auto">
+								<label aria-label="Overflow left quick link layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkOverflowLeftLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/qlink-overflow-left.png" class="m-auto">
 									<span>Overflow Left</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -523,8 +523,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="navOptions" id="qlinkStackedLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkStackedLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/qlink-stacked.png" class="m-auto">
+								<label aria-label="Stacked quick link layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="qlinkStackedLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/qlink-stacked.png" class="m-auto">
 									<span class="mt-auto">Stacked</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -538,8 +538,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="sliderNavOptions" id="navDefaultLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navDefaultLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/nav-default.png" class="m-auto rounded-1">
+								<label aria-label="Default slider navigation layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navDefaultLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/nav-default.png" class="m-auto rounded-1">
 									<span class="mt-auto">Default</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -547,8 +547,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="sliderNavOptions" id="navCenterLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navCenterLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/nav-center.png" class="m-auto rounded-1">
+								<label aria-label="Center slider navigation layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navCenterLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/nav-center.png" class="m-auto rounded-1">
 									<span>Center</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>
@@ -556,8 +556,8 @@
 
 							<div class="d-flex flex-column">
 								<input type="radio" class="btn-check" name="sliderNavOptions" id="navOverlayLayout" autocomplete="off" checked>
-								<label class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navOverlayLayout">
-									<img loading="lazy" src="/plugins/builder/assets/images/nav-overflow.png" class="m-auto rounded-1">
+								<label aria-label="Overflow slider navigation layout" class="btn btn-outline-dark py-4 flex-column gap-3 d-flex justift-content-center align-items-center" for="navOverlayLayout">
+									<img alt="" loading="lazy" src="/plugins/builder/assets/images/nav-overflow.png" class="m-auto rounded-1">
 									<span class="mt-auto">Overflow</span>
 									<i class="bi bi-check-circle-fill position-absolute top-0 start-100 translate-middle"></i>
 								</label>

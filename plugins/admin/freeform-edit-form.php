@@ -21,7 +21,7 @@
 
 						<input type="text" class="form-control form-control-lg border-0 fs-1 fw-bold py-5 px-0 text-body outline-0 shadow-none mb-2 bg-transparent" id="metatitle" placeholder="Type a page title here...">
 
-						<textarea rows="30" class="form-control" placeholder="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla."></textarea>
+						<textarea aria-label="Page content" rows="30" class="form-control" placeholder="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla."></textarea>
 
 					</div><!-- /.rz-meta-box -->
 

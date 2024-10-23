@@ -31,8 +31,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -52,8 +52,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -73,8 +73,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -94,8 +94,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -115,8 +115,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -136,8 +136,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -157,8 +157,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -197,8 +197,8 @@
 								<span class="small"><span class="text-muted">Date Crated:</span> June 12, 2024</span>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div><!-- /.d-flex -->
 
@@ -221,8 +221,8 @@
 								<p class="m-0"><span class="text-muted">Subtitle:</span><span class="fw-semibold"> Nulla vitae elit libero, a pharetra augue.</span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 					</div>
@@ -246,8 +246,8 @@
 								<p class="m-0 small"><span class="text-muted">Location:</span><span class="fw-semibold"> 123 street Detroit, MI</span><span class="text-muted"> Email:</span><span class="fw-semibold"> email@email.com</span><span class="text-muted"> Phone:</span><span class="fw-semibold"> 123-123-7827</span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 					</div>
@@ -273,8 +273,8 @@
 								<p class="m-0"><span class="text-muted">Link:</span><span class="fw-semibold"> <a href="https://www.revize.com/">https://www.revize.com</a></span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
+								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 						<!-- /.list-wrap for quick links -->
