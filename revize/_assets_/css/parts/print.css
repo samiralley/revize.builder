@@ -1,0 +1,16 @@
+@media print {
+
+	#slider,
+	footer,
+	#breadcrumbs,
+	#flyout-wrap,
+	.share-btn,
+	.e-notify,
+	.site-header {
+		display: none !important
+	}
+
+	a[href]:after {
+		content: none !important
+	}
+}

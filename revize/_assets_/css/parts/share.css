@@ -1,0 +1,53 @@
+/* -----------------------------------------
+
+#share widget
+
+-----------------------------------------*/
+.share-btns a {
+	display: flex;
+	text-decoration: none;
+	flex: 1 1 auto;
+	padding: 16px;
+	align-items: center;
+	gap: 1rem;
+	border: 1px solid rgba(var(--bs-emphasis-color-rgb), 0.3);
+	justify-content: center;
+	border-radius: var(--bs-border-radius-lg);
+	font-size: 1rem;
+}
+
+a.btn-facebook {
+	background: #1877F2;
+	color: #fff;
+	border-color: #1877F2
+}
+
+a.btn-twitter {
+	background: #000;
+	color: #fff;
+	border-color: #000
+}
+
+a.btn-linkedin {
+	background: #0077B5;
+	color: #fff;
+	border-color: #0077B5
+}
+
+a.btn-reddit {
+	background: #FF5700;
+	color: #fff;
+	border-color: #FF5700;
+}
+
+.share-btns .btn:hover,
+.share-btns .btn:active,
+.share-btns .btn:focus {
+	color: #fff;
+	background: var(--bs-primary);
+	border-color: var(--bs-primary)
+}
+
+.share-btns .btn:focus-visible {
+	box-shadow:0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.5);
+}

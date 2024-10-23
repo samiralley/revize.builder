@@ -1,0 +1,59 @@
+.user-logged-in{box-shadow:0 0 10px rgba(21,0,56,0);padding:14px}
+#rz-bar-wrap{display:none;opacity:0}
+.user-logged-in #rz-bar-wrap{background:#fff;margin-bottom:14px;box-shadow:0 2px 10px rgba(21,0,56,0.08);position:relative;z-index:1040;padding:6px;border:1px solid rgba(21,0,56,.1);display:block;opacity:1}
+.rz-bar{display:flex;flex-wrap:nowrap}
+.rz-bar .col{display:flex;padding:0}
+.rz-bar .rz-bar-right-col{justify-content:end}
+.rz-bar .rz-bar-center-col{justify-content:center}
+.rz-bar-btn{display:flex;align-items:center;justify-content:center;width:48px;min-width:48px!important}
+.rz-bar-btn:hover{background:#eee}
+.rz-bar .dropdown-toggle::after{border-top-color:#000;display:none}
+.rz-icon{width:48px;height:48px}
+.hide-btns-icon{display:none}
+.show-edit-buttons .show-btns-icon{display:none}
+.show-edit-buttons .hide-btns-icon{display:block}
+.rz-bar .rz-editing{position:relative;padding:0 14px;display:flex;align-items:center;line-height:1.3!important;color:#000!important;margin-right:14px}
+.rz-bar .rz-editing:after{content:"";width:1px;position:absolute;top:10px;bottom:10px;right:0;background:rgba(21,0,56,0.2)}
+.rz-editing i{margin-right:10px;background:#00c14e;height:14px;width:14px;box-shadow:0 0 0 0 rgba(0,193,78,.6);transform:scale(1);-webkit-animation:pulse 2s infinite}
+@keyframes pulse {0%{transform:scale(0.95);box-shadow:0 0 0 0 rgba(27,207,27,.6)}70%{transform:scale(1);box-shadow:0 0 0 8px rgba(0,0,0,0)}100%{transform:scale(0.95);box-shadow:0 0 0 0 rgba(0,0,0,0)}}
+.rz-bar .dropdown-menu{top:24px!important;min-width:340px;padding:14px;font-size:16px;color:#000;box-shadow:0 2px 10px rgba(21,0,56,0.08);border:1px solid rgba(21,0,56,.1);border-radius:0}
+.rz-bar .dropdown-item,.dropdown-item-text{padding:7px 14px;text-decoration:none;line-height:1.5;font-weight:700}
+.rz-bar .dropdown-item:focus,.rz-bar .dropdown-item:hover{background:#9b64001a;color:#000}
+.bar-settings-dropdown .form-check-input{position:relative;margin-left:0;margin-top:0;margin-right:3px;top:-1px;width:14px;height:14px}
+.bar-settings-dropdown label{font-size:16px;font-weight:400}
+.dropdown-item input{display:absolute!important;left:3px!important;top:0!important;z-index:1;opacity:0}
+.dropdown-item input + label{display:inline-block;position:relative;padding-left:10px}
+.dropdown-item input + label:before{content:'';display:block;position:absolute;top:3px;left:-20px;border-radius:50%;margin-right:5px;width:20px;height:20px;border:1px solid #ccc;background:#fff}
+.dropdown-item input + label:after{content:'';display:block;width:14px;height:14px;background:#222;position:absolute;border-radius:50%;top:6px;left:-17px;opacity:0;transform:scale(0,0);transition:all .2s;outline:2px solid #000;outline-offset:3px}
+.dropdown-item input:checked + label:after{opacity:1;transform:scale(1,1)}
+#RZadminpanelContainer{position:absolute!important;z-index:9999999999!important;right:0!important;left:auto!important;top:70px!important;margin:0!important;padding:0!important;width:380px!important;height:auto!important;min-height:84px;color:#000;font:16px / 1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";text-align:center!important;background-color:#fff!important;display:block;border:1px solid rgba(21,0,56,.1);box-shadow:0 2px 10px rgba(21,0,56,0.08)!important}
+#RZadminwin-loading{position:absolute;top:0;bottom:0;right:0;height:100%;width:100%;font-size:0;color:transparent;background:url(images/loader-32px.svg) no-repeat center center}
+@media only screen and (min-width:992px) and ( min-height: 600px) {
+.rz-bar-bottom #rz-bar-wrap{position:fixed;bottom:0}
+.rz-bar-bottom .rz-bar{gap:30px}
+.rz-bar-bottom .dropdown-toggle::after{display:none}
+.rz-bar-bottom .rz-bar .dropdown-menu{top:-28px!important}
+.rz-bar-bottom #RZadminpanelContainer{right:-1px!important;left:auto!important;top:auto!important;bottom:70px}
+.user-logged-in.rz-bar-left{padding-left:84px}
+.rz-bar-left #rz-bar-wrap{position:fixed;height:calc(100% - 28px);left:14px;min-height:600px}
+.rz-bar-left #rz-bar-wrap .rz-bar,.rz-bar-left #rz-bar-wrap .col{flex-direction:column;margin:auto;height:100%}
+.rz-bar-left .rz-icon{width:40px;height:40px}
+.rz-bar-left .rz-bar-btn{padding:0;height:40px;width:40px;min-width:40px!important}
+.rz-bar-left .rz-bar-btn img{width:21px;height:21px}
+.rz-bar-left .rz-editing{font-size:0;margin:14px 0;padding:0}
+.rz-bar-left .rz-editing i{margin:0 auto}
+.rz-bar-left .rz-editing:after{display:none}
+.rz-bar-left .dropdown-toggle::after{transform:rotate(-90deg);position:absolute;top:50%;right:-3px;margin-top:-2px}
+.rz-bar-left .rz-bar-dropdown{position:relative}
+.rz-bar-left .rz-bar .dropdown-menu{top:-32px!important;left:56px!important;}
+.rz-bar-left #RZadminpanelContainer{right:0!important;left:62px!important;top:auto!important;bottom:-1px}
+}
+.tooltip{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"!important;font-style:normal!important;font-weight:400!important;line-height:1.5!important;text-align:left!important;text-align:start!important;text-decoration:none!important;text-shadow:none!important;text-transform:none!important;letter-spacing:normal!important;word-break:normal!important;word-spacing:normal!important;white-space:normal!important;line-break:auto!important;font-size:1rem!important;opacity:0;z-index:999999999999}
+.tooltip-inner{max-width:280px!important;padding:.5rem 1rem!important;color:#fff!important;text-align:center!important;background-color:#000!important;font-size:16px!important}
+@media only screen and (max-width:991px) {
+.rz-bar .rz-bar-center-col{display:none}
+.rz-bar .rz-editing{font-size:0;margin:0;padding-right:14px}
+.rz-editing i{margin:0 auto}
+.rz-bar-home{display:none}
+.rz-bar-position{display:none}
+}

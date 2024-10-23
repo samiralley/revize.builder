@@ -1,0 +1,48 @@
+/* -----------------------------------------
+
+#revize edit buttons DO NOT MODIFY
+
+-----------------------------------------*/
+/* ----------------------------------------- #helpers and positioning for revize buttons -----------------------------------------*/
+.absolute{position:absolute!important}
+.relative{position:relative!important}
+.static{position: static!important}
+/* .user-logged-in .rz-site-wrap{box-shadow: 0 0 0.625rem rgba(21, 0, 56, 0.121);margin:14px} */
+.rz-bar-center-col{display:none!important}
+
+/* default position for revize buttons is top right DO NOT WRAP - Check Below for other positioning */
+.rz-btns-container{line-height:1!important;font-size:1rem;opacity:0;background:#fff;padding:4px;box-shadow:0px 2px 0.625rem rgba(21, 0, 56, 0.2);transition:all .2s;position:absolute;top:0;right:0;z-index:99;white-space:nowrap;border-radius:4px;transform: scale(0.8) translateY(0.625rem);}
+.left-top{top:0!important;right:auto!important;left:0!important;z-index:100;position:absolute}
+.left-top .rz-btns-container{position:relative!important}
+.center-top{top:0!important;right:50%!important;transform:translate(50%, 0)!important;z-index:100;position:absolute}
+.center-top .rz-btns-container{position:relative!important}
+.right-center{top:50%!important;right:0!important;transform:translate(0, -50%)!important;z-index:100;position:absolute}
+.right-center .rz-btns-container{position:relative!important}
+.right-bottom{top:auto!important;right:0!important;bottom:0!important;z-index:99;position:absolute}
+.right-bottom .rz-btns-container{position:relative!important}
+.center-bottom{top:auto!important;right:50%!important;bottom:0!important;transform:translateX(50%)!important;z-index:99;position:absolute}
+.center-bottom .rz-btns-container{position:relative!important}
+.center-center{top:50%!important;right:50%!important;transform:translate(50%, -50%)!important;z-index:100;position:absolute;width:auto!important}
+.center-center .rz-btns-container{position:relative!important}
+.left-bottom{top:auto!important;right:auto!important;left:0!important;bottom:0;z-index:100;position:absolute}
+.left-bottom .rz-btns-container{position:relative!important}
+.left-center{top:50%!important;right:auto!important;left:0!important;transform:translate(0, -50%)!important;z-index:100;position:absolute}
+.left-center .rz-btns-container{position:relative!important}
+
+/* ----------------------------------------- rzBtn's -----------------------------------------*/
+.rz-btns-container a{display:inline-block!important}
+.rzBtn{text-transform:capitalize;cursor:pointer;text-decoration:none;position:relative;line-height:1.5!important;display:inline-block!important;letter-spacing:0!important;padding:7px 14px;background:#fff!important;color:#000!important;font-weight:normal!important;font-size:1rem;white-space:nowrap;text-align:center;border:1px solid #e6e6e6;transition:all .2s;font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"!important;border-radius:2px}
+.rz-btns-stacked a,.rz-btns-stacked .rzBtn{display:block!important;margin-bottom:4px;text-decoration:none}
+.rz-btns-stacked .rzBtn:last-of-type{margin:0;}
+.rzBtn:hover{background:#eee!important;border-color:#ccc;color:#000!important;text-decoration:none}
+.rzBtn-sm{font-size:14px!important;padding:5px 0.625rem!important}
+.rzBtn-xs{font-size:12px!important;padding:3px 6px!important}
+.user-logged-in .yes-has-edit-buttons{position:relative;outline:3px solid transparent;outline-offset:6px}
+.user-logged-in .yes-has-edit-buttons:hover,.show-edit-buttons .user-logged-in .yes-has-edit-buttons{outline:3px solid #6000fe;outline-offset:3px;/* z-index:10!important; */transition:all .2s;min-width:100px}
+.user-logged-in .yes-has-edit-buttons/*,.show-edit-buttons .user-logged-in .yes-has-edit-buttons*/{min-height:24px}
+.user-logged-in .yes-has-edit-buttons:hover .rz-btns-container:has(.rzBtn),
+.show-edit-buttons .user-logged-in .yes-has-edit-buttons .rz-btns-container:has(.rzBtn){opacity:1;height:auto;transform: scale(1) translateY(0);}
+.hide-edit-btns .rz-btns-container{display:none}
+.user-not-logged-in .rz-btns-container{display:none!important}
+.rz-section-buttons .rzBtn .bi-pencil:before{transition: transform .6s ease-in-out}
+.rz-section-buttons .rzBtn:hover .bi-pencil:before {transform: rotate(-90deg)}
