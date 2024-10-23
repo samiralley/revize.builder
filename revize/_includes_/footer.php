@@ -1,5 +1,5 @@
 
-  </div><!-- /.rz-site-wrap -->
+    </div><!-- /.rz-site-wrap -->
 
   <?php include "../plugins/builder/sections/footer.php"; ?>
   <?php include "../plugins/builder/elements/rz-brand-footer.php"; ?>
@@ -17,9 +17,8 @@
   <?php include "../plugins/builder/elements/modals/edit-form-modal.php"; ?>
   <?php include "../plugins/builder/elements/modals/confirmation-modal.php"; ?>
 
-  <script src="_assets_/plugins/tiny-slider/dist/min/tiny-slider.js"></script>
-  <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-  <script src="_assets_/js/scripts.js"></script>
+    <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
+    <script src="_assets_/js/scripts.js"></script>
 
   </body>
 </html>
