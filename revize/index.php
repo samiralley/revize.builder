@@ -33,8 +33,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 py-5">
-					<?php include "../plugins/builder/elements/button.php"; ?>
-					<?php include "../plugins/builder/elements/staff-member.php"; ?>
+					<?php //include "../plugins/builder/elements/button.php"; ?>
+					<?php //include "../plugins/builder/elements/staff-member.php"; ?>
 					<?php //include "../plugins/builder/elements/single-image.php"; ?>
 					<?php //include "../plugins/builder/elements/icon-link.php"; ?>
 					<?php //include "../plugins/builder/elements/tabs.php"; ?>
@@ -42,13 +42,13 @@
 					<?php //include "../plugins/builder/elements/agenda-list.php"; ?>
 					<?php //include "../plugins/builder/elements/social-icons.php"; ?>
 					<?php include "../plugins/builder/elements/hero.php"; ?>					
-					<?php include "../plugins/builder/elements/link-list.php"; ?>
+					<?php //include "../plugins/builder/elements/link-list.php"; ?>
 
-					<?php include "../plugins/builder/elements/alert.php"; ?>
-					<?php include "../plugins/builder/elements/quick-link.php"; ?>
+					<?php //include "../plugins/builder/elements/alert.php"; ?>
+					<?php //include "../plugins/builder/elements/quick-link.php"; ?>
 					<?php //include "../plugins/builder/elements/job-post.php"; ?>
-					<?php include "../plugins/builder/elements/accordion.php"; ?>
-					<?php include "../plugins/builder/elements/blog-item.php"; ?>
+					<?php //include "../plugins/builder/elements/accordion.php"; ?>
+					<?php //include "../plugins/builder/elements/blog-item.php"; ?>
 					<!-- Something wrong with blog-item.php -->
 					<?php //include "../plugins/builder/elements/staff-directory.php"; ?>
 					<?php //include "../plugins/builder/elements/testimonial.php"; ?>
@@ -71,16 +71,7 @@
 		</div>
 	</div>
 
-	 
-	
-	 
-		
- 
-	
-	
  <!-- <div id="mini-events" data-template-file="template.html"></div>   -->
-	
-	
 
 <?php include "_includes_/footer.php"; ?>
 

@@ -5,7 +5,7 @@
 	--rz-header-padding-y: 0;
 	--rz-header-padding-x: 0;
 	/* options absolute/relative/ only no fixed */
-	--rz-header-position: relative;
+	--rz-header-position: absolute;
 	--rz-header-top-background: #eee;
 	--rz-header-top-color: #000;
 	--rz-header-top-link-color: #000;
@@ -16,11 +16,11 @@
 	--rz-header-middle-link-color: #000;
 	--rz-header-middle-padding-y: .5rem;
 	--rz-header-middle-padding-x: 0rem;
-	--rz-header-bottom-background: #000;
+	--rz-header-bottom-background: transparent;
 	--rz-header-bottom-color: #fff;
 	--rz-header-bottom-link-color: #fff;
-	--rz-header-bottom-padding-y: .5rem;
-	--rz-header-bottom-padding-x: 0rem;
+	--rz-header-bottom-padding-y: 0;
+	--rz-header-bottom-padding-x: 0;
 	--rz-header-btns-padding-y: .5rem;
 	--rz-header-btns-padding-x: .4rem;
 	--rz-logo-color: #000;
@@ -155,10 +155,10 @@
 	--rz-header-translate-color: ;
 	--rz-header-translate-background: ;
 	--rz-header-translate-font-size: ;
-	--rz-header-social-icons-color: #fff;
+	--rz-header-social-icons-color: #000;
 	--rz-header-social-icons-background: ;
 	--rz-header-social-icons-font-size: 1rem;
-	--rz-header-address-color: #fff;
+	--rz-header-address-color: #000;
 	--rz-header-address-background: ;
 	--rz-header-address-icon-color: ;
 	--rz-header-address-font-size: 1rem;
@@ -178,16 +178,10 @@
 	top: 0;
 	z-index: 19;
 	transition: var(--rz-header-transition);
+	height: ;
 }
 
 @media only screen and (min-width:992px) {
-	.site-header-wrap {
-		height: ;
-	}
-
-	.site-header-wrap.sticky-top {
-		z-index: 99
-	}
 
 	.site-header-wrap .container-fluid {
 		max-width: var(--rz-header-container-width);

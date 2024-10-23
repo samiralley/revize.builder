@@ -58,14 +58,14 @@
 
 <div class="skippy visually-hidden-focusable left-top mt-3">
 	<div class="container-xl">
-		<a class="d-inline-flex btn btn-primary fs-6 px-3 p-2" href="#rz-content-wrap">Skip to main content</a>
+		<a class="d-inline-flex btn btn-primary fs-6 px-3 p-2" href="#rz-content-wrap" tabindex="0">Skip to main content</a>
 	</div>
 </div>
 
 <?php //include "../plugins/revize_bar/bar.php"; ?>
 
-<div class="rz-site-wrap">
-
 <?php include "../plugins/builder/sections/header.php"; ?>
+
+<div class="rz-site-wrap">
 
 	<div id="rz-content-wrap">
