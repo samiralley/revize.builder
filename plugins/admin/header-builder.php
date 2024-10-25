@@ -39,17 +39,17 @@
 					<div class="p-3 border rounded">
 						<div class="header-top-for-alert d-flex gap-2 mb-2">
 							<div class="p-3 gap-2 flex-fill flex-shrink-1 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 									<i class="bi bi-exclamation-circle fs-5 me-2"></i>Alert
 								</div>
 							</div><!-- /.p-3 -->
 						</div><!-- /.header-top-for-alert -->
 						<div class="header-top d-flex gap-2">
 							<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 									<i class="bi bi-image fs-5 me-2"></i>Logo
 								</div>
-								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 									<i class="bi bi-list fs-5 me-2"></i>Main nav
 								</div>
 							</div><!-- /.p-3 -->
@@ -57,7 +57,7 @@
 								<div class="text-nowrap">Top center</div>
 							</div><!-- /.p-3 -->
 							<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 									<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 								</div>
 							</div><!-- /.p-3 -->
@@ -81,7 +81,7 @@
 								<div class="text-nowrap">Bottom center</div>
 							</div><!-- /.p-3 -->
 							<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 									<i class="bi bi-geo-alt fs-5 me-2"></i>Location
 								</div>
 							</div><!-- /.p-3 -->
@@ -173,67 +173,67 @@
 					<div class="rz-meta-box row row-cols-xl-1 g-2" id="draggableElements">
 
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-list fs-5 me-2"></i>Main nav
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-image fs-5 me-2"></i>Logo
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-search fs-5 me-2"></i>Toggle
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-translate fs-5 me-2"></i>Translate
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-universal-access-circle fs-5 me-2"></i>ADA
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-link-45deg fs-5 me-2"></i>Buttons
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-geo-alt fs-5 me-2"></i>Location
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-plus-slash-minus fs-5 me-2"></i>Font Sizer
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-brightness-low fs-5 me-2"></i>Weather
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-collection-play fs-5 me-2"></i>Social
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-textarea-t fs-5 me-2"></i>RTE
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5 text-primary"></i>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-exclamation-circle fs-5 me-2"></i>Alert
 							</div>
 						</div>

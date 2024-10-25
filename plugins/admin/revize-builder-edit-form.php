@@ -23,7 +23,7 @@
 	<div class="rz-admin-inner d-lg-flex flex-fill overflow-auto">
 
 		<div class="center-col-wrap w-100 d-flex flex-column">
-			<div class="d-flex align-items-center gap-1 border-bottom px-4 py-3">
+			<div class="d-flex align-items-center gap-1 border-bottom px-4 py-3 bg-body">
 				<h1 class="h5 m-0 me-auto">Editing with revize.builder</h1>
 				<div class="savebtns ms-auto d-flex align-items-center gap-2">
 					<a href="" class="btn btn-primary d-flex align-items-center justify-content-center">Publish</a>
@@ -35,60 +35,60 @@
 			<div class="center-col-inner overflow-auto flex-fill p-5">
 
 				<div class="section-create p-4 position-relative mb-2 border-dash-always">
-					<p class="text-center m-0">Drag a row into here to create a new section</p>
+					<p class="text-center m-0">Drag a section into here to create a new section</p>
 				</div>
 
 				<div class="section-created p-5 border rounded position-relative mb-2">
+					<i class="bi bi-grip-horizontal bg-light rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
 					<div class="row-create p-3 position-relative mb-2 border-dash-always">
-						<p class="text-center m-0">Drag a row into here to add a new row in this section</p>
+						<p class="text-center m-0">Drag a row here to add columns</p>
 					</div>
-					<i class="bi bi-grip-horizontal bg-light rounded-1 fs-5 align-content-center text-primary px-3 position-absolute center-top mt-2 cursor-grab"></i>
 					<div class="section-settings position-absolute w-auto left-top">
 						<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Section Settings</a>
 					</div><!-- /.section-settings -->
 					<div class="row gap-2 row-created border-dash-always p-5 m-0 position-relative my-2">
-						<i class="w-auto bi bi-grip-horizontal bg-light rounded-1 fs-5 align-content-center text-primary px-3 position-absolute center-top mt-2 cursor-grab"></i>
+						<i class="w-auto bi bi-grip-horizontal bg-light rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
 						<div class="row-settings position-absolute w-auto left-top">
 							<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Row Settings</a>
 						</div><!-- /.row-settings -->
 						<div class="col p-3 col-created bg-light border-dash-always gap-2 d-flex flex-column position-relative pt-5">
-							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center text-primary px-3 position-absolute center-top mt-2 cursor-grab"></i>
+							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
 							<div class="column-settings position-absolute w-auto left-top">
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
 							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 									<i class="bi bi-menu-button fs-4"></i>Accordion
 								</div>
 							</div>
 						</div><!-- /.col -->
 						<div class="col p-3 col-created bg-light border-dash-always gap-2 d-flex flex-column position-relative pt-5">
-							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center text-primary px-3 position-absolute center-top mt-2 cursor-grab"></i>
+							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
 							<div class="column-settings position-absolute w-auto left-top">
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
 
 							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 									<i class="bi bi-menu-button fs-4"></i>Accordion
 								</div>
 							</div>
 						</div><!-- /.col -->
 						<div class="col p-3 col-created bg-light border-dash-always gap-2 d-flex flex-column position-relative pt-5">
-							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center text-primary px-3 position-absolute center-top mt-2 cursor-grab"></i>
+							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
 							<div class="column-settings position-absolute w-auto left-top">
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
 							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 									<i class="bi bi-menu-button fs-4"></i>Accordion
 								</div>
 							</div>
 							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 									<i class="bi bi-menu-button fs-4"></i>Accordion
 								</div>
@@ -96,12 +96,12 @@
 						</div><!-- /.col -->
 					</div><!-- /.row-created-->
 					<div class="row-create p-3 position-relative border-dash-always">
-						<p class="text-center m-0">Drag a row into here to add a new row in this section</p>
+						<p class="text-center m-0">Drag a row here to add columns</p>
 					</div>
 				</div><!-- /.section-created -->
 
 				<div class="section-create p-4 position-relative mb-2 border-dash-always">
-					<p class="text-center m-0">Drag a row into here to create a new section</p>
+					<p class="text-center m-0">Drag a section into here to create a new section</p>
 				</div>
 
 			</div><!-- /.center-col-inner -->
@@ -147,7 +147,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-columns fs-4"></i>Column
 										</div>
@@ -156,7 +156,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-list fs-4"></i>Row
 										</div>
@@ -165,7 +165,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-columns-gap fs-4"></i>Section
 										</div>
@@ -174,7 +174,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-textarea-t fs-4"></i>RTE
 										</div>
@@ -183,7 +183,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-menu-button fs-4"></i>Accordion
 										</div>
@@ -192,7 +192,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-list-ol fs-4"></i>Agenda List
 										</div>
@@ -201,7 +201,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-exclamation-circle fs-4"></i>Alert
 										</div>
@@ -210,7 +210,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-menu-button-wide fs-4"></i>Anchor Buttons
 										</div>
@@ -219,7 +219,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-chat fs-4"></i>Blog
 										</div>
@@ -228,7 +228,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-shop-window fs-4"></i>Business thee Directory
 										</div>
@@ -237,7 +237,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-hr fs-4"></i>Divider
 										</div>
@@ -246,7 +246,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-image fs-4"></i>Fancy Box
 										</div>
@@ -255,7 +255,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-image-fill fs-4"></i>Photo Gallery
 										</div>
@@ -264,7 +264,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-card-image fs-4"></i>Hero
 										</div>
@@ -273,7 +273,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-vignette fs-4"></i>Icon Link
 										</div>
@@ -282,7 +282,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-building fs-4"></i>Job Post
 										</div>
@@ -291,7 +291,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-tag fs-4"></i>Label
 										</div>
@@ -300,7 +300,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-link fs-4"></i>Link List
 										</div>
@@ -309,7 +309,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-card-text fs-4"></i>Marquee
 										</div>
@@ -318,7 +318,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-newspaper fs-4"></i>News List
 										</div>
@@ -327,7 +327,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-envelope fs-4"></i>Newsletter
 										</div>
@@ -336,7 +336,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-link fs-4"></i>Quick Link
 										</div>
@@ -345,7 +345,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-filetype-html fs-4"></i>Raw Html
 										</div>
@@ -354,7 +354,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-textarea-t fs-4"></i>RTE
 										</div>
@@ -363,7 +363,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-card-heading fs-4"></i>Section Header
 										</div>
@@ -372,7 +372,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-file-image fs-4"></i>Single Image
 										</div>
@@ -381,7 +381,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-images fs-4"></i>Slider
 										</div>
@@ -390,7 +390,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-collection-play fs-4"></i>Social Icons
 										</div>
@@ -399,7 +399,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-people fs-4"></i>Staff Directory
 										</div>
@@ -408,7 +408,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-person fs-4"></i>Staff Member
 										</div>
@@ -417,7 +417,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-menu-button-wide fs-4"></i>Submenu
 										</div>
@@ -426,7 +426,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-segmented-nav fs-4"></i>Tabs
 										</div>
@@ -435,7 +435,7 @@
 
 								<div class="d-flex">
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
 											<i class="bi bi-quote fs-4"></i>Quote
 										</div>
@@ -458,7 +458,7 @@
 							<div class="row row-cols-2 g-2">
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -466,7 +466,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -474,7 +474,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -482,7 +482,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -490,7 +490,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -511,7 +511,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -519,7 +519,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -527,7 +527,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -535,7 +535,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>
@@ -543,7 +543,7 @@
 
 								<div>
 									<div class="position-relative border-dash-always hover-shadow p-1">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center text-primary position-absolute left-center ms-2"></i>
+										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center position-absolute left-center ms-2"></i>
 										<img src="_assets_/images/no-image-slider.jpg" alt="" class="rounded-1">
 									</div>
 									<p>name</p>

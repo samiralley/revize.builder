@@ -55,17 +55,17 @@
 
 			<h6 class="mb-3">Options</h6>
 			<div class="form-check form-switch ps-0 mb-2 small">
-				<input class="form-check-input float-end" type="checkbox" role="switch" id="hideFlyout">
+				<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="hideFlyout">
 				<label class="form-check-label" for="hideFlyout">Hide Left Navigation</label>
 			</div>
 
 			<div class="form-check form-switch ps-0 mb-2 small">
-				<input class="form-check-input float-end" type="checkbox" role="switch" id="sendNotifications">
+				<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="sendNotifications">
 				<label class="form-check-label" for="sendNotifications">Send Notifications</label>
 			</div>
 
 			<div class="form-check form-switch ps-0 mb-2 small">
-				<input class="form-check-input float-end" type="checkbox" role="switch" id="hideSlider">
+				<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="hideSlider">
 				<label class="form-check-label" for="hideSlider">Hide Slider</label>
 			</div>
 

@@ -5,7 +5,7 @@
 	</div><!-- /.header -->
 	<div class="rz-admin-inner d-lg-flex flex-fill overflow-y-auto overflow-x-hidden">
 
-		<div class="center-col-wrap w-100 d-flex flex-column">
+		<div class="center-col-wrap w-100 d-flex flex-column bg-body">
 			<div class="d-flex align-items-center border-bottom px-4 py-3 gap-2">
 				<h1 class="h5 m-0">Editing page</h1>
 				<div class="savebtns ms-auto d-flex align-items-center gap-2">
@@ -14,10 +14,10 @@
 				</div>
 				<button class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center freeformPagesSettings"><span class="bi d-flex align-items-center flex-shrink-0 lh-1 rounded-circle fs-5 me-1"><i class="bi bi-layout-sidebar-inset-reverse"></i></span>Toggle settings</button>
 			</div><!-- /.d-flex -->
-			<div class="center-col-inner overflow-y-auto overflow-x-hidden flex-fill p-4">
+			<div data-bs-theme="light" class="center-col-inner overflow-y-auto overflow-x-hidden flex-fill p-4 bg-light">
 				<div class="col-xl-8 m-auto">
 
-					<div class="rz-meta-box">
+					<div class="rz-meta-box" data-bs-theme="light">
 
 						<input type="text" class="form-control form-control-lg border-0 fs-1 fw-bold py-5 px-0 text-body outline-0 shadow-none mb-2 bg-transparent" id="metatitle" placeholder="Type a page title here...">
 
@@ -29,7 +29,7 @@
 
 			</div><!-- /.center-col-inner -->
 
-			<div class="sticky-bottom border-top d-flex py-1 bg-light px-3 align-items-center">
+			<div class="sticky-bottom border-top d-flex py-1 bg-light px-3 align-items-center bg-body">
 				<p class="mt-2 mb-1 h6 d-flex align-items-center"><i class="bi bi-columns-gap fs-5 p-3 bg-primary text-white lh-1 rounded-circle me-2"></i>Get much more flexibility with the revize.builder</p>
 				<div class="upgrade text-center ms-auto">
 					<a href="" class="btn btn-primary d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Learn More</a>
@@ -96,17 +96,17 @@
 
 					<h6 class="mb-3">Options</h6>
 					<div class="form-check form-switch ps-0 mb-2">
-						<input class="form-check-input float-end" type="checkbox" role="switch" id="hideFlyout">
+						<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="hideFlyout">
 						<label class="form-check-label" for="hideFlyout">Hide Left Navigation</label>
 					</div>
 
 					<div class="form-check form-switch ps-0 mb-2">
-						<input class="form-check-input float-end" type="checkbox" role="switch" id="sendNotifications">
+						<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="sendNotifications">
 						<label class="form-check-label" for="sendNotifications">Send Notifications</label>
 					</div>
 
 					<div class="form-check form-switch ps-0 mb-2">
-						<input class="form-check-input float-end" type="checkbox" role="switch" id="hideSlider">
+						<input class="form-check-input float-end me-0" type="checkbox" role="switch" id="hideSlider">
 						<label class="form-check-label" for="hideSlider">Hide Slider</label>
 					</div>
 

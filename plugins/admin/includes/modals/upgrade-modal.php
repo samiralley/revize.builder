@@ -192,7 +192,7 @@
 			</div>
 			<div class="modal-body p-5 pt-3">
 				<h3 class="modal-title fs-5 mb-2" id="contactSalesLabel">Ready to upgrade to revize.<span class="text-primary">Pro</span>?</h3>
-				<p class="small">Let's build vision together, just fill out the information below and we will get back to you within one business day</p>
+				<p class="small">Let's build out your vision together, just fill out the information below and we will get back to you within one business day</p>
 				<form>
 					<div class="mb-3">
 					<label for="nameInput" class="form-label fw-bold">Name</label>

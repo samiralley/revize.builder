@@ -1,11 +1,11 @@
 <?php include "_includes_/head.php"; ?>
 
-<div class="blog-intro">
+<div class="blog-intro py-5 mt-5">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 py-5 overflow-hidden">
+			<div class="col-lg-12 py-5 overflow-hidden">
 				<h1 data-aos="fade-up-right"
-				data-aos-duration="600"><span class="mega-font">City Blog</span></h1>
+				data-aos-duration="600"><span class="mega-font">City Blog </span></h1>
 			</div><!-- /.col-12 -->
 		</div>
 	</div>

@@ -10,10 +10,15 @@
 	<div class="section-border section-border-top" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat; "></div>
 	<div class="section-border section-border-bottom" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat;"></div>
 
-	<div class="container position-relative z-3">
-		<div class="row">
-			<div class="col-lg-4">
-				<div class="side-col-wrap fillLeft withPadding h-100">
+<style>
+	.col-aside{max-width:300px}
+	.col-post{max-width:900px}
+</style>
+	<div id="freefrom-content-wrapper" class="position-relative z-3">
+		<div class="d-flex">
+			<div class="col bg-info"></div>
+			<div class="col-aside" >
+				<div class="side-col-wrap h-100">
 					<div class="side-col">
 						<?php include "../plugins/builder/elements/submenu.php"; ?>
 					</div><!-- /.side-col -->
@@ -88,11 +93,11 @@
 				</div><!-- /.side-col-wrap -->
 			</div><!-- /.col-lg-4 -->
 
-			<div class="col-lg-8">
+			<div class="col-post">
 
 				<div class="post-wrap h-100">
 
-					<div id="post" class="fillRight withPadding h-100">
+					<div id="post" class="h-100">
 						<h1>H1 title here Donec</h1>
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb align-items-center">
@@ -121,6 +126,7 @@
 				</div><!-- /.post-wrap -->
 
 			</div><!-- /.col-lg-8 -->
+			<div class="col bg-info"></div>
 		</div><!-- /.row -->
 	</div><!-- /.container -->
 </div><!-- /.rz-section-block -->
