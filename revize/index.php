@@ -48,7 +48,7 @@
 					<?php //include "../plugins/builder/elements/quick-link.php"; ?>
 					<?php //include "../plugins/builder/elements/job-post.php"; ?>
 					<?php //include "../plugins/builder/elements/accordion.php"; ?>
-					<?php include "../plugins/builder/elements/blog-item.php"; ?>
+					<?php //include "../plugins/builder/elements/blog-item.php"; ?>
 					<!-- Something wrong with blog-item.php -->
 					<?php //include "../plugins/builder/elements/staff-directory.php"; ?>
 					<?php //include "../plugins/builder/elements/testimonial.php"; ?>
@@ -63,7 +63,7 @@
 					
 					<?php //include "../plugins/builder/elements/slider.php"; ?>
 					<?php //include "../plugins/builder/elements/section-header.php"; ?>
-					<?php //include "../plugins/builder/elements/business-directory.php"; ?>
+					<?php include "../plugins/builder/elements/business-directory.php"; ?>
 					<?php //include "../plugins/builder/elements/marquee.php"; ?>
 
 				</div>

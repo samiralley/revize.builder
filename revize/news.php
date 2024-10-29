@@ -38,7 +38,7 @@
 									class="btn btn-primary rz-card-btn"
 									data-bs-toggle="offcanvas"
 									data-bs-target="#newsDetails"
-									aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+									aria-controls="newsDetails">link me jamie</a>
 							</div><!-- /.rz-card-actions -->
 						</div><!-- /.rz-card-body -->
 					</div><!-- /.rz-card -->
@@ -166,7 +166,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -192,7 +192,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -218,7 +218,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -244,7 +244,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -270,7 +270,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -296,7 +296,7 @@
 											class="btn btn-primary rz-card-btn"
 											data-bs-toggle="offcanvas"
 											data-bs-target="#newsDetails"
-											aria-controls="newsDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+											aria-controls="newsDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->

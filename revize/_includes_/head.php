@@ -11,27 +11,52 @@
 	<meta name="robots" content="index, follow">
 	<meta name="theme-color" content="#4516ff" />
 
-<!-- #jquery -->
-	<script src="_assets_/js/all.js"></script>
 
-<!-- #lightGallery css -->
-	<link href="_assets_/plugins/lightGallery-master/dist/css/lightgallery-bundle.min.css" rel="stylesheet">
-	
-<!-- #bootstrap css and fonts -->	
-	<link href="_assets_/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- #jquery -->
+		<script src="_assets_/plugins/jquery/jquery.min.js"></script>
 
-<!-- #font awesome css -->		
-	<link href="_assets_/fonts/font-awesome/css/all.min.css" rel="stylesheet" >
+	<!-- #jquery lazy -->	
+		<script src="_assets_/plugins/jquery.lazy-master/jquery.lazy.min.js"></script>	
+			
+	<!-- #masonry scripts -->	
+		<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+		<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
 		
-<!-- #tiny sider css -->	
-	<link href="_assets_/plugins/tiny-slider/dist/tiny-slider.css" rel="stylesheet" >
-
-<!-- #aos css-->	
-	<link href="_assets_/plugins/aos/src/css/aos.min.css" rel="stylesheet" >
-
-<!-- #layout css -->	
-	<link href="_assets_/css/layout.css" rel="stylesheet">
+	<!-- #lightGallery scripts -->	
+		<script src="_assets_/plugins/lightGallery-master/dist/lightgallery.min.js"></script>
+		
+	<!-- lightgallery plugins -->
+		<script src="_assets_/plugins/lightGallery-master/dist/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+		<script src="_assets_/plugins/lightGallery-master/dist/plugins/zoom/lg-zoom.umd.js"></script>	
+		<script src="_assets_/plugins/lightGallery-master/dist/plugins/video/lg-video.min.js"></script>	
+	
+	<!-- #lightGallery css -->
+		<link href="_assets_/plugins/lightGallery-master/dist/css/lightgallery-bundle.min.css" rel="stylesheet">
+		
+	<!-- #bootstrap js + popper js -->
+		<script src="_assets_/plugins/popperjs/popper.min.js"></script>
+		<script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>	
+	
+	<!-- #bootstrap css and fonts -->	
+		<link href="_assets_/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+	<!-- #tiny sider css -->	
+		<link href="_assets_/plugins/tiny-slider/dist/tiny-slider.css" rel="stylesheet" >
+	
+	<!-- #font awesome css -->		
+		<link href="_assets_/fonts/font-awesome/css/all.min.css" rel="stylesheet" >
+	
+	<!-- #aos css + js-->	
+		<script src="_assets_/plugins/aos/src/js/aos.min.js"></script>
+		<link href="_assets_/plugins/aos/src/css/aos.min.css" rel="stylesheet" >
+	<!-- #aos -->	
+	
+	<!-- #fitty -->	
+	<script src="_assets_/plugins/fitty-gh-pages/dist/fitty.min.js"></script>
+	
+	<!-- #layout css -->	
+		<link href="_assets_/css/layout.css" rel="stylesheet">
 
 <!-- #favicons -->		
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">

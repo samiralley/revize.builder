@@ -42,9 +42,9 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#businessDetails"
-							aria-controls="businessDetails"><i class="fa-solid fa-ellipsis me-2"></i>Expand Details</a>
+							aria-controls="businessDetails">Expand Details</a>
 						<a href="#"
-							class="btn btn-primary rz-card-btn"><i class="fa-solid fa-arrow-up-right-from-square me-2"></i>Visit Website</a>
+							class="btn rz-card-btn">Visit Website<i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -80,9 +80,9 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#businessDetails"
-							aria-controls="businessDetails"><i class="fa-solid fa-ellipsis me-2"></i>Expand Details</a>
+							aria-controls="businessDetails">Expand Details</a>
 						<a href="#"
-							class="btn btn-primary rz-card-btn"><i class="fa-solid fa-arrow-up-right-from-square me-2"></i>Visit Website</a>
+							class="btn rz-card-btn">Visit Website<i class="fa-solid fa-arrow-up-right-from-square ms-2"></i></a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
