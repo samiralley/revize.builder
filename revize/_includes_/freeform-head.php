@@ -62,10 +62,8 @@
 	</div>
 </div>
 
-<?php //include "../plugins/revize_bar/bar.php"; ?>
+<?php include "../plugins/builder/sections/header.php"; ?>
 
 <div class="rz-site-wrap">
-
-<?php include "../plugins/builder/sections/header.php"; ?>
 
 	<div id="rz-content-wrap">

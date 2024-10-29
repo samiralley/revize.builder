@@ -1,5 +1,5 @@
 <!-- #done -->
-<div class="header-element header-nav-links-wrap d-none d-lg-flex align-items-center gap-2 has-edit-buttons move-to-offcanvas">
+<div class="header-element header-nav-links-wrap d-lg-flex align-items-center gap-2 has-edit-buttons move-to-offcanvas">
 	<div class="center-center">
 		<div class="rz-btns-container">
 			<span class="rzBtn rzBtn-xs">Edit</span>

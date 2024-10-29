@@ -1,4 +1,4 @@
-<div class="header-element header-ada-btn d-none d-lg-flex align-items-stretch cursor-pointer move-to-offcanvas">
+<div class="header-element header-ada-btn d-lg-flex align-items-stretch cursor-pointer move-to-offcanvas">
 	<div class="vr vr-s"></div>
 		<button type="button" class="btn btn-link px-3 d-flex align-items-center"><i class="bi bi-universal-access-circle me-2"></i>
 			<span>Accessibility</span>

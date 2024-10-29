@@ -36,7 +36,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -60,7 +60,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -84,7 +84,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -109,7 +109,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -134,7 +134,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -189,7 +189,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -216,7 +216,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -243,7 +243,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -267,7 +267,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -291,7 +291,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -315,7 +315,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -340,7 +340,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -365,7 +365,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -390,7 +390,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -416,7 +416,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -442,7 +442,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -468,7 +468,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -493,7 +493,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -518,7 +518,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -543,7 +543,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -611,7 +611,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -638,7 +638,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -665,7 +665,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#blogDetails"
-							aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							aria-controls="blogDetails">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -689,7 +689,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -713,7 +713,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -737,7 +737,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -762,7 +762,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -787,7 +787,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -812,7 +812,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -838,7 +838,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -864,7 +864,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -890,7 +890,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -915,7 +915,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -940,7 +940,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->
@@ -965,7 +965,7 @@
 					</p>
 					<div class="rz-card-actions">
 						<a href="#"
-							class="btn btn-primary rz-card-btn">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+							class="btn btn-primary rz-card-btn">link me jamie</a>
 					</div><!-- /.rz-card-actions -->
 				</div><!-- /.rz-card-body -->
 			</div><!-- /.rz-card -->

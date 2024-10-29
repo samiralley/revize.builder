@@ -164,7 +164,8 @@
 	--rz-header-address-font-size: 1rem;
 	--rz-header-all-icons-font-size: 1rem;
 	/* mobile header options */
-	--rz-header-bg-color-mobile: #fff;
+	--rz-header-bg-color-mobile: #000;
+	--rz-header-icons-color-mobile: #fff;
 	--rz-scroll-header-bg-color-mobile: green;
 	--rz-scroll-header-icons-color-mobile: #fff;
 	--rz-header-vr-align: center;
@@ -846,7 +847,11 @@ div.skiptranslate {
 		background: var(--rz-scroll-header-bg-color-mobile);
 	}
 
-	.site-header-wrap.sticky-top .btn {
+	.site-header-wrap .logo-section .btn {
+		color: var(--rz-header-icons-color-mobile);
+	}
+
+	.site-header-wrap.sticky-top .logo-section .btn {
 		color: var(--rz-scroll-header-icons-color-mobile);
 	}
 
@@ -856,6 +861,10 @@ div.skiptranslate {
 
 	.site-header-wrap .container-fluid>.d-flex {
 		flex-direction: column;
+	}
+	
+	.site-header-wrap .move-to-offcanvas{
+		display: none
 	}
 
 	.logo-section {
@@ -946,6 +955,10 @@ div.skiptranslate {
 		flex: 1 1 auto;
 		text-align: center;
 	}
+	
+	#offcanvasNav .offcanvas-body{
+		padding:0
+	}
 
 	#nav>li {
 		transition-property: transform, -webkit-transform;
@@ -1011,7 +1024,7 @@ div.skiptranslate {
 		line-height: 2rem;
 		border-radius: 100px;
 		font-size: .8rem;
-		color: var(--bs-dark)
+		color: var(--bs-body)
 	}
 
 	#nav,
@@ -1022,7 +1035,7 @@ div.skiptranslate {
 
 	#nav li a,
 	#nav li span {
-		color: var(--rz-bs-dark);
+		color: var(--bs-body);
 		font-size: 1rem
 	}
 
@@ -1042,51 +1055,44 @@ div.skiptranslate {
 		width: 100%;
 		border-bottom: 1px solid var(--bs-gray-300);
 		display: block;
-		padding: 1rem 0px;
+		padding: .85rem 3.5rem .85rem 1rem;
 		text-decoration: none;
 	}
 
 	#nav a.toggle,
 	#nav a.toggle2 {
-		top: 1rem;
-		position: absolute;
-		width: 2rem;
-		height: 2rem;
-		padding: 0;
-		font-size: .8rem;
-		line-height: 32px;
-		text-align: center;
-		border-radius: 10rem;
-		z-index: 1;
+		top: 0;
 		right: 0;
+		position: absolute;
+		width: 3rem;
+		height: 51px;
+		padding:0;		
+		font-size: 1rem;
+		line-height: 51px;
+		text-align: center;
+		z-index: 1;
 		border: 0;
-	}
-
-	#nav a.toggle2 {
-		right: 1rem;
-		top: .6rem
-	}
-
+	 }
+ 
 	#nav li li a,
 	#nav li li span {
-		padding: 1rem 2.5rem 1rem 1rem;
-		font-size: 14px;
+
 		text-wrap-style: balance;
+				border-bottom: 1px solid var(--bs-gray-400);
+		background:#fff
+
 	}
 
 	#nav ul {
 		background: var(--bs-gray-100);
-		margin: -1px calc(var(--bs-offcanvas-padding-x)*-1)
+		padding:0 0 0 .5rem
 	}
 
 	#nav ul ul {
 		background: var(--bs-gray-200);
 		margin: 0
 	}
-
-	.header-area-1 .header-element:first-of-type .vr-s {
-		display: none
-	}
+ 
 }
 
 /* always add extra header styles 992px and above mobile version is the same for all site */

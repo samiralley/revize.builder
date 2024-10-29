@@ -1,4 +1,4 @@
-<div class="header-element header-social-icons-wrap d-none d-lg-flex has-edit-buttons move-to-offcanvas">
+<div class="header-element header-social-icons-wrap d-lg-flex has-edit-buttons move-to-offcanvas">
 	<div class="center-center">
 		<div class="rz-btns-container">
 			<span class="rzBtn rzBtn-xs">Edit</span>

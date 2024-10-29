@@ -10,18 +10,13 @@
 	<div class="section-border section-border-top" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat; "></div>
 	<div class="section-border section-border-bottom" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat;"></div>
 
-<style>
-	.col-aside{max-width:300px}
-	.col-post{max-width:900px}
-</style>
+
 	<div id="freefrom-content-wrapper" class="position-relative z-3">
-		<div class="d-flex">
-			<div class="col bg-info"></div>
-			<div class="col-aside" >
-				<div class="side-col-wrap h-100">
-					<div class="side-col">
-						<?php include "../plugins/builder/elements/submenu.php"; ?>
-					</div><!-- /.side-col -->
+		<div class="d-flex flex-wrap flex-lg-nowrap">
+			<div class="col freeform-left-col-fill"></div>
+			<div class="col-side-wrap">
+				<div class="col-side h-100">
+					<?php include "../plugins/builder/elements/submenu.php"; ?>
 
 					<div data-aos="fade-up"
 						data-aos-duration="800"
@@ -90,15 +85,15 @@
 						</div><!-- /.rz-staff-member-card -->
 					</div><!-- /.rz-staff-member-card-wrap -->
 
-				</div><!-- /.side-col-wrap -->
-			</div><!-- /.col-lg-4 -->
+				</div><!-- /.col-wrap -->
+			</div><!-- /.col-side-wrap -->
 
-			<div class="col-post">
+			<div class="col-post-wrap">
 
-				<div class="post-wrap h-100">
+				<div class="col-post h-100">
 
 					<div id="post" class="h-100">
-						<h1>H1 title here Donec</h1>
+						<h1 class="page-title">H1 title here Donec</h1>
 						<nav aria-label="breadcrumb">
 							<ol class="breadcrumb align-items-center">
 								<li class="breadcrumb-item"><a href="#"><i class="bi bi-house fs-5 position-relative"><span class="sr-only">Home page</span></i></a></li>
@@ -126,7 +121,7 @@
 				</div><!-- /.post-wrap -->
 
 			</div><!-- /.col-lg-8 -->
-			<div class="col bg-info"></div>
+			<div class="col freeform-right-col-fill"></div>
 		</div><!-- /.row -->
 	</div><!-- /.container -->
 </div><!-- /.rz-section-block -->

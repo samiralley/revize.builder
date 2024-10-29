@@ -1,6 +1,6 @@
 <div class="logo-section d-flex">
 	<div class="responsive-menu align-items-center d-flex d-lg-none">
-		<button class="submenu-toggler btn border-0 p-2 fs-2 lh-1 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenuResponsive" aria-controls="submenuResponsive">
+		<button class="submenu-toggler btn border-0 p-2 fs-2 lh-1 d-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenuResponsive" aria-controls="submenuResponsive">
 			<i class="bi bi-list"></i>
 	</button>
 

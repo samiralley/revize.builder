@@ -35,13 +35,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->
@@ -70,13 +70,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->
@@ -107,13 +107,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->
@@ -144,13 +144,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->
@@ -183,13 +183,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->
@@ -221,13 +221,13 @@
 						</p>
 						<div class="rz-qlink-actions">
 							<a href="#"
-								class="btn btn-primary">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+								class="btn btn-primary">link me jamie</a>
 						</div><!-- /.rz-qlink-actions -->
 					</div><!-- /.rz-qlink-body -->
 				</div><!-- /.rz-qlink-body-wrap -->
 				<div class="rz-qlink-footer">
 					<a href="#"
-						class="btn btn-link rz-qlink-btn">link me jddamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+						class="btn btn-link rz-qlink-btn">link me jamie</a>
 				</div><!-- /.rz-qlink-footer -->
 			</div><!-- /.rz-qlink -->
 		</div><!-- /.rz-qlink-wrap -->

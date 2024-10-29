@@ -7,7 +7,7 @@
 	</div><!-- /.center-center -->
 
 	<div class="footer-contact-location d-flex align-items-center gap-3">
-		<i class="fa-solid fa-location-dot"></i>
+		<i class="bi bi-geo-alt fs-5"></i>
 		<div>
 			<p class="m-0">123 East Street</p>
 			<p class="m-0">Detroit, MI 48126</p>
@@ -15,7 +15,7 @@
 	</div><!-- /.staff-member-location -->
 
 	<div class="footer-contact-phone d-flex align-items-center gap-3">
-		<i class="fa-solid fa-phone-flip"></i>
+		<i class="bi bi-telephone fs-5"></i>
 		<p class="m-0">
 			<a href="tel:313222222"
 				class="text-decoration-none">(123) 234-333</a>
@@ -23,7 +23,7 @@
 	</div><!-- /.staff-member-phone -->
 
 	<div class="footer-contact-email d-flex align-items-center gap-3">
-		<i class="bi bi-envelope-fill"></i>
+		<i class="bi bi-envelope fs-5"></i>
 		<p class="m-0">
 			<a href="mailto:email@gmail.com"
 				class="text-decoration-none">email@email.com</a>
@@ -31,7 +31,7 @@
 	</div><!-- /.staff-member-email -->
 
 	<div class="footer-contact-fax d-flex align-items-center gap-3">
-		<i class="fa-solid fa-fax"></i>
+		<i class="bi bi-printer fs-5"></i>
 		<p class="m-0">
 			<a href="fax:+313.555.1234"
 				class="text-decoration-none">(123) 234-333</a>

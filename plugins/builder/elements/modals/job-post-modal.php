@@ -34,28 +34,28 @@
 			<div class="bg-light p-4 p-lg-5">
 				<div class="row row-cols-1 row-cols-sm-2 g-2">
 					<p class="d-flex gap-3 align-items-center">
-						<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+						<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5"></i>
 						<span>
 							<strong class="small text-muted lh-1">Department</strong><br>
 							City Police
 						</span>
 					</p>
 					<p class="d-flex gap-3 align-items-center">
-						<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+						<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5"></i>
 						<span>
 							<strong class="small text-muted lh-1">Salary</strong><br>
 							$70,000
 						</span>
 					</p>
 					<p class="d-flex gap-3 align-items-center">
-						<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+						<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5"></i>
 						<span>
 							<strong class="small text-muted lh-1">Work Environment</strong><br>
 							In-Person
 						</span>
 					</p>
 					<p class="d-flex gap-3 align-items-center">
-						<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+						<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5"></i>
 						<span>
 							<strong class="small text-muted lh-1">Posted</strong><br>
 							16 Days Ago
@@ -65,12 +65,12 @@
 
 				<a href="#"
 					class="btn btn-primary mt-lg-4">
-					<i class="bi bi-box-arrow-up-right me-2"></i>Apply Now
+					Apply Now<i class="bi bi-box-arrow-up-right ms-2"></i>
 				</a>
 			</div><!-- /.bg-light -->
 
 			<div class="bg-white p-4 p-lg-5">
-				<p class="mb-1 small bg-success-subtle text-success-emphasis p-1 px-2 m-0 border-radius d-inline-flex"><small><i class="bi bi-exclamation-circle"></i> Urgent Hire</small></p>
+				<p class="small bg-success-subtle text-success-emphasis p-1 px-2 mb-2 rounded-pill d-inline-flex"><small><i class="bi bi-exclamation-circle"></i> Urgent Hire</small></p>
 				<p class="fs-4">Full Job Description</p>
 				<div class="job-full-details">
 					<p>

@@ -27,6 +27,15 @@
     }
   }
 
+// #todo need this for inner page only
+  // const submenuOffcanvas = document.getElementById('submenuResponsive')
+  // submenuOffcanvas.addEventListener('show.bs.offcanvas', event => {
+  //   $('.site-header-wrap').addClass('invisible')
+  // });
+  // submenuOffcanvas.addEventListener('hidden.bs.offcanvas', event => {
+  //   $('.site-header-wrap').removeClass('invisible')
+  // });
+  
   // needed for revize bar
   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
   const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
@@ -275,21 +284,26 @@
     return false;
   });
 
-  function cloneNavItems() {
-    if ($window.width() < 992) {
-      var headerItem = $(".move-to-offcanvas");
-      var cloned = headerItem.clone();
-      cloned.appendTo(".offcanvasHeaderItems-offcanvas-body").removeClass("d-none");
-
-      //#todo keeps on appendTo test it
-    } else {
-      // Insert needed for desktop
+  var isClonedHeaderElement = false;
+  $(window).on("load resize", function() {
+    if($window.width() < 992) {
+      if(!isClonedHeaderElement) {
+        $('.site-header-wrap .move-to-offcanvas').clone().addClass('d-flex').appendTo('.offcanvasHeaderItems-offcanvas-body');
+        isClonedHeaderElement = true;
+      }
     }
-  }
-  $window.on("load", function () {
-    cloneNavItems();
+    else {
+      if(isClonedHeaderElement) {
+        $('.offcanvasHeaderItems-offcanvas-body .move-to-offcanvas').remove();
+        isClonedHeaderElement = false;
+      }
+    }
   });
-
+  
+  if ($("#submenu li").length) {
+    $('.submenu-toggler').removeClass('d-none')
+  }
+     
   // Menu Arrows and Toggles
   $("#nav >li>ul,#submenu >li>ul").addClass("first-level");
   $("#nav  li ul ul").addClass("second-level");

@@ -179,21 +179,3 @@
 		</div><!-- /.main-nav-wrap -->
 	</div><!-- /.offcanvas-body -->
 </div><!-- /.offcanvas-lg -->
-
-<div class="offcanvas-lg offcanvas-bottom"
-	tabindex="-1"
-	id="offcanvasHeaderItems"
-	aria-labelledby="offcanvasHeaderItemsLabel">
-	<div class="offcanvas-header border-bottom">
-		<h5 class="offcanvas-title"
-			id="offcanvasHeaderItemsLabel">Menu</h5>
-		<button type="button"
-			class="btn-close"
-			data-bs-dismiss="offcanvas"
-			aria-label="Close"
-			data-bs-target="#offcanvasHeaderItems"></button>
-	</div>
-
-	<div class="offcanvas-body offcanvasHeaderItems-offcanvas-body">
-	</div>
-</div>

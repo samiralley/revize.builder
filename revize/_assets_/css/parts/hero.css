@@ -20,7 +20,7 @@
 	--rz-carousel-controls-border: ;
 	--rz-carousel-controls-box-shadow: var(--bs-box-shadow);
 	/* 	play button */
-	--rz-carousel-play-button-bg: #fff;
+	--rz-carousel-play-button-bg: #f1f1f1;
 	--rz-carousel-play-button-border-radius: var(--rz-carousel-controls-border-radius);
 	--rz-carousel-play-button-color: #000;
 	--rz-carousel-play-button-font-size: var(--rz-carousel-controls-font-size);
@@ -39,10 +39,11 @@
 	--rz-carousel-nav-button-bg: #999;
 	--rz-carousel-nav-button-active-bg: #000;
 	/* play and dots container	 */
-	--rz-carousel-nav-controls-bg: #eee;
+	--rz-carousel-nav-controls-bg: #fff;
 	--rz-carousel-nav-controls-padding: 4px 4px 4px 16px;
 	--rz-carousel-nav-controls-border-radius: 100px;
 	--rz-carousel-nav-controls-border: 1px solid #ccc;
+	--bs-gutter-x: 1.5rem;
 	position: relative;
 	background-color: var(--hero-bg-color);
 
@@ -292,7 +293,7 @@ ul.tiny-carousel {
 	--rz-carousel-controls-border: ;
 	--rz-carousel-controls-box-shadow: var(--bs-box-shadow);
 	/* 	play button */
-	--rz-carousel-play-button-bg: rgba(255, 255, 255, 1);
+	--rz-carousel-play-button-bg: #f1f1f1;
 	--rz-carousel-play-button-border-radius: var(--rz-carousel-controls-border-radius);
 	--rz-carousel-play-button-color: var(--rz-carousel-controls-color);
 	--rz-carousel-play-button-font-size: calc(var(--rz-carousel-controls-font-size) * 0.85);
@@ -311,7 +312,7 @@ ul.tiny-carousel {
 	--rz-carousel-nav-button-bg: var(--bs-secondary);
 	--rz-carousel-nav-button-active-bg: var(--bs-primary);
 	/* play and dots container	 */
-	--rz-carousel-nav-controls-bg: #eee;
+	--rz-carousel-nav-controls-bg: #fff;
 	--rz-carousel-nav-controls-padding: 4px 4px 4px calc(var(--rz-carousel-controls-height) / 3);
 	--rz-carousel-nav-controls-border-radius: 100px;
 	--rz-carousel-nav-controls-border: var(--rz-carousel-controls-border);

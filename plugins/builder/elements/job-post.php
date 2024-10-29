@@ -20,28 +20,28 @@
 					<!-- <p class="rz-card-text">Brief description can go here Duis mollis, est non commodo luctusm.</p> -->
 					<div class="row row-cols-1 row-cols-md-2 g-2 py-4">
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Department</strong><br>
 								City Police
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Salary</strong><br>
 								$70,000
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Work Environment</strong><br>
 								In-Person
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Posted</strong><br>
 								16 Days Ago
@@ -53,7 +53,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#jobPost"
-							aria-controls="jobPost">Details<i class="bi bi-arrow-right ms-2"></i></a>
+							aria-controls="jobPost">Details</a>
 						<a href="#"
 							class="btn btn-link rz-card-btn text-dark text-decoration-none">Apply Now<i class="bi bi-box-arrow-up-right ms-2"></i></a>
 					</div><!-- /.rz-card-actions -->
@@ -65,7 +65,7 @@
 				data-job-post-highlighted="true">
 				<!-- add data-job-post-highlighted="true" highlighted option -->
 				<div class="rz-card-header d-flex justify-content-between align-items-center border-bottom bg-light">
-					<p class="rz-card-label bg-success-subtle text-success-emphasis p-1 px-2 m-0"><small><i class="bi bi-exclamation-circle"></i> Urgent Hire</small></p>
+					<p class="rz-card-label bg-success-subtle text-success-emphasis p-1 px-2 m-0 rounded-pill"><small><i class="bi bi-exclamation-circle"></i> Urgent Hire</small></p>
 					<div class="price-range lh-1">
 						<p class="fw-bold fs-3 m-0 mb-1 text-end">$70</p>
 						<strong class="small text-muted fw-normal">Per Hour</strong>
@@ -76,28 +76,28 @@
 					<!-- <p class="rz-card-text">Brief description can go here Duis mollis, est non commodo luctusm.</p> -->
 					<div class="row row-cols-1 row-cols-md-2 g-2 py-4">
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-building flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Department</strong><br>
 								City Police
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-currency-dollar flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Salary</strong><br>
 								$70,000
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-geo-alt flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Work Environment</strong><br>
 								In-Person
 							</span>
 						</p>
 						<p class="d-flex gap-3 align-items-center mw-min-content flex-grow-1">
-							<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-white rounded-circle w-h-48 fs-5 border border-primary"></i>
+							<i class="bi bi-clock flex-shrink-0 d-flex align-items-center justify-content-center text-primary bg-light rounded-circle w-h-48 fs-5"></i>
 							<span>
 								<strong class="small text-muted">Posted</strong><br>
 								16 Days Ago
@@ -109,7 +109,7 @@
 							class="btn btn-primary rz-card-btn"
 							data-bs-toggle="offcanvas"
 							data-bs-target="#jobPost"
-							aria-controls="jobPost">Details<i class="bi bi-arrow-right ms-2"></i></a>
+							aria-controls="jobPost">Details</a>
 						<a href="#"
 							class="btn btn-link rz-card-btn text-dark text-decoration-none">Apply Now<i class="bi bi-box-arrow-up-right ms-2"></i></a>
 					</div><!-- /.rz-card-actions -->

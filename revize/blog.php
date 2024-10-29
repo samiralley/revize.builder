@@ -50,7 +50,7 @@
 									class="btn btn-primary rz-card-btn"
 									data-bs-toggle="offcanvas"
 									data-bs-target="#blogDetails"
-									aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+									aria-controls="blogDetails">link me jamie</a>
 							</div><!-- /.rz-card-actions -->
 						</div><!-- /.rz-card-body -->
 					</div><!-- /.rz-card -->
@@ -180,7 +180,7 @@
 									<p class="rz-card-text">This is the default layout for all cards Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -211,7 +211,7 @@
 									<p class="rz-card-text">Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -242,7 +242,7 @@
 									<p class="rz-card-text">Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -273,7 +273,7 @@
 									<p class="rz-card-text">This is the default layout for all cards Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -304,7 +304,7 @@
 									<p class="rz-card-text">This is the default layout for all cards Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->
@@ -335,7 +335,7 @@
 									<p class="rz-card-text">This is the default layout for all cards Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 									</p>
 									<div class="rz-card-actions">
-										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie <i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+										<a href="#" class="btn btn-primary rz-card-btn" data-bs-toggle="offcanvas" data-bs-target="#blogDetails" aria-controls="blogDetails">link me jamie</a>
 									</div><!-- /.rz-card-actions -->
 								</div><!-- /.rz-card-body -->
 							</div><!-- /.rz-card -->

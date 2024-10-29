@@ -11,7 +11,7 @@
 	--rz-card-title-font-size: 1.2rem;
 	--rz-card-title-font-weight: bold;
 	--rz-card-subtitle-color: ;
-	--rz-card-border: 1px solid #ccc;
+	--rz-card-border: 1px solid #e3e3e3;
 	--rz-card-border-radius: var(--bs-border-radius);
 	--rz-card-box-shadow: var(--bs-box-shadow);
 	--rz-card-inner-border-radius: calc(var(--rz-card-border-radius) - (var(--bs-border-width)));
@@ -474,7 +474,7 @@
 	--rz-card-title-color: var(--bs-body-color);
 	--rz-card-title-margin: 0;
 	--rz-card-title-font-weight: bold;
-	--rz-card-border: 1px solid var(--bs-border-color);
+	--rz-card-border: 1px solid #e3e3e3;
 	--rz-card-border-radius: var(--bs-border-radius);
 	--rz-card-box-shadow: var(--bs-box-shadow);
 	--rz-card-inner-border-radius: calc(var(--rz-card-border-radius) - (var(--bs-border-width)));
@@ -485,7 +485,7 @@
 
 .rz-job-post-card[data-job-post-highlighted="true"] {
 	border-width: 3px;
-	border-color: var(--bs-green)
+	border-color: var(--bs-success)
 }
 
 .col-5 .rz-card-wrap,
@@ -507,7 +507,7 @@
 .rz-agendalist-card {
 	--rz-card-padding-y: 2rem;
 	--rz-card-padding-x: 2rem;
-	--rz-card-border: 1px solid #ccc;
+	--rz-card-border: 1px solid #e3e3e3;
 	--rz-card-border-radius: var(--bs-border-radius);
 	--rz-card-box-shadow: var(--bs-box-shadow);
 	--rz-card-color: var(--bs-body-color);
@@ -527,7 +527,7 @@
 	--rz-card-title-font-size: 1.2rem;
 	--rz-card-title-font-weight: bold;
 	--rz-card-subtitle-color: ;
-	--rz-card-border: 1px solid #ccc;
+	--rz-card-border: 1px solid #e3e3e3;
 	--rz-card-border-radius: var(--bs-border-radius);
 	--rz-card-box-shadow: var(--bs-box-shadow);
 	--rz-card-inner-border-radius: calc(var(--rz-card-border-radius) - (var(--bs-border-width)));
@@ -606,7 +606,7 @@
 	--rz-card-body-padding-x: 10%;
 	--rz-card-title-color: #fff;
 	--rz-card-subtitle-color: #fff;
-	--rz-card-border: 0px solid #000;
+	--rz-card-border: none;
 	--rz-card-btn-margin: 0;
 	--rz-card-color: #fff;
 	--rz-card-bg: #fff;
@@ -779,7 +779,7 @@
 	--rz-staff-card-padding: 1rem 1.5rem;
 	--rz-staff-card-margin: 0 0 0 0;
 	--rz-staff-card-bg-color: #fff;
-	--rz-staff-card-border: 1px solid #ccc;
+	--rz-staff-card-border: 1px solid #e3e3e3;
 	--rz-staff-avatar-width: 64px;
 	--rz-staff-avatar-height: 64px;
 	--rz-staff-avatar-border-radius: 100px;

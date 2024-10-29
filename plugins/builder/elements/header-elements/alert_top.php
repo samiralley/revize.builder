@@ -1,5 +1,5 @@
 <!-- #done -->
-<div class="alert alert-top alert-dismissible fade show m-0 w-100 d-flex gap-2 align-items-center has-edit-buttons" role="alert" data-scroll="false">
+<div class="alert alert-top alert-dismissible fade show m-0 w-100 d-flex gap-2 align-items-center has-edit-buttons" role="alert" data-scroll="true">
 	<!-- add data-scroll="false" to stop scroll -->
 	<div class="center-center">
 		<div class="rz-btns-container">

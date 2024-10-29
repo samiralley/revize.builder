@@ -1,6 +1,6 @@
 <?php include "_includes_/head.php"; ?>
 
-<div class="blog-into">
+<div class="search-into">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 pt-5">
@@ -24,6 +24,6 @@
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 	</div><!--/.container -->
-</div><!-- /.blog-hero -->
+</div><!-- /.mb-5 -->
 
 <?php include "_includes_/footer.php"; ?>

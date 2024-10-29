@@ -34,7 +34,7 @@
 			<div class="row">
 				<div class="col-lg-12 py-5">
 					<?php //include "../plugins/builder/elements/button.php"; ?>
-					<?php include "../plugins/builder/elements/staff-member.php"; ?>
+					<?php //include "../plugins/builder/elements/staff-member.php"; ?>
 					<?php //include "../plugins/builder/elements/single-image.php"; ?>
 					<?php //include "../plugins/builder/elements/icon-link.php"; ?>
 					<?php //include "../plugins/builder/elements/tabs.php"; ?>
@@ -48,9 +48,9 @@
 					<?php //include "../plugins/builder/elements/quick-link.php"; ?>
 					<?php //include "../plugins/builder/elements/job-post.php"; ?>
 					<?php //include "../plugins/builder/elements/accordion.php"; ?>
-					<?php //include "../plugins/builder/elements/blog-item.php"; ?>
+					<?php include "../plugins/builder/elements/blog-item.php"; ?>
 					<!-- Something wrong with blog-item.php -->
-					<?php include "../plugins/builder/elements/staff-directory.php"; ?>
+					<?php //include "../plugins/builder/elements/staff-directory.php"; ?>
 					<?php //include "../plugins/builder/elements/testimonial.php"; ?>
 					<?php //include "../plugins/builder/elements/fancy-box.php"; ?>
 					<?php //include "../plugins/builder/elements/gallery.php"; ?>		

@@ -98,8 +98,8 @@
 
 a,
 button {
-	scroll-margin-top: 0;
-	scroll-margin-bottom: 0
+	scroll-margin-top: 80px;
+	scroll-margin-bottom: 80px
 }
 
 .lg-backdrop {
@@ -209,6 +209,10 @@ button {
 #anchor buttons
 
 -----------------------------------------*/
+.rz-anchor-buttons-wrapper{
+	z-index:10
+}
+
 .rz-anchor-buttons {
 	--rz-anchor-buttons-width: 200px;
 	--rz-anchor-buttons-bg: ;
@@ -888,6 +892,14 @@ button {
 	background: rgba(var(--bs-primary-rgb), .6);
 	opacity: 1 !important;
 	z-index: 1099
+}
+.offcanvas-backdrop.show{
+	opacity: 1;
+}
+
+.offcanvas-backdrop {
+	backdrop-filter: blur(8px);
+	background: rgba(var(--bs-primary-rgb), .6);
 }
 
 /* -----------------------------------------

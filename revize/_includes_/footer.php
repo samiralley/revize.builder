@@ -16,7 +16,8 @@
   <?php include "../plugins/builder/elements/modals/blog-modal.php"; ?>
   <?php include "../plugins/builder/elements/modals/edit-form-modal.php"; ?>
   <?php include "../plugins/builder/elements/modals/confirmation-modal.php"; ?>
-
+  <?php include "../plugins/builder/elements/modals/offcanvasHeaderItems-modal.php"; ?>
+  
     <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
     <script src="_assets_/js/scripts.js"></script>
 

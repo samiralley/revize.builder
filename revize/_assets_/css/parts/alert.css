@@ -1,14 +1,14 @@
-.alert-top {
+.alert.alert-top {
 	--rz-alert-top-radius: 0px;
 	--rz-alert-top-bg-color: #EB0000;
 	--rz-alert-top-color: #fff;
 	--rz-alert-top-icon-bg: #fff;
-	--rz-alert-top-padding-x: 8px;
+	--rz-alert-top-padding-x: 15px;
 	--rz-alert-top-padding-y: 8px;
-	--rz-alert-top-font-size: .85rem;
+	--rz-alert-top-font-size: .9rem;
 }
 
-.alert-top {
+.alert.alert-top {
 	border-radius: var(--rz-alert-top-radius);
 	background-color: var(--rz-alert-top-bg-color);
 	color: var(--rz-alert-top-color);
@@ -16,6 +16,7 @@
 	font-size: var(--rz-alert-top-font-size);
 	line-height: 1.4;
 	overflow: hidden;
+	border:0
 }
 
 .alert-top a,

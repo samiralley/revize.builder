@@ -230,7 +230,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-shop-window fs-4"></i>Business thee Directory
+											<i class="bi bi-shop-window fs-4"></i>Business Directory
 										</div>
 									</div>
 								</div>
