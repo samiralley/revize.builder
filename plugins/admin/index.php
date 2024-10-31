@@ -95,12 +95,12 @@
 												</div>
 											</div><!-- /.p-5 -->
 											<ul class="list-group list-group-flush border-bottom-0">
-												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2">
-													<i class="ki-duotone ki-note-2 me-3 align-bottom"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
-													Total Pages
+												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h3">
+													<i class="ki-duotone ki-note-2 me-3 align-text-bottom"><span class="path1"></span><span class="path2"></span></i>
+													1354</span>Total Pages
 												</li>
-												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2">
-													<i class="ki-duotone ki-note me-3 align-bottom"><span class="path1"></span><span class="path2"></span></i>
+												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h3">
+													<i class="ki-duotone ki-note me-3 align-text-bottom"><span class="path1"></span><span class="path2"></span></i>
 													354</span>Total Documents
 												</li>
 											</ul>
