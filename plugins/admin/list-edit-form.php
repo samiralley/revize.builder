@@ -23,7 +23,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-3">
 							<h5 class="m-0">Gallery</h5>
-							<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Add new image or video</a>
+							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add new image or video</a>
 						</div>
 						<div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-3" data-masonry='{"percentPosition": true, "itemSelector": ".rz-element-list"}'>
 							<div class="rz-element-list">
@@ -182,7 +182,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">News List & blog list</h5>
-							<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Add news article</a>
+							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add news article</a>
 						</div>
 						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
@@ -209,7 +209,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">Slides</h5>
-							<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Add slide</a>
+							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add slide</a>
 						</div>
 						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
@@ -232,7 +232,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">Staff Member</h5>
-							<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Add a staff member</a>
+							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a staff member</a>
 						</div>
 						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
@@ -257,7 +257,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-3">
 							<h5 class="m-0">Quick Links</h5>
-							<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Add quick link</a>
+							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a quick link</a>
 						</div>
 						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">

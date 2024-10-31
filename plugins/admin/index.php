@@ -22,21 +22,22 @@
 									<div class="col-12">
 										<h2 class="mb-4 h5">Quick actions</h2>
 										<div class="d-flex flex-wrap flex-xl-nowrap align-items-stretch justify-content-between pb-5 gap-2">
-											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto bi bi-question-circle fs-4"></i>Support Portal
-												<i class="w-auto h-auto bi bi-arrow-right ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center" style="--bs-icon-link-transform: rotate(-45deg);"></i></a>
+											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto ki-duotone ki-information-4  fs-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Support Portal<i class="w-auto h-auto bi ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center" style="--bs-icon-link-transform: rotate(-45deg);"><span class="fs-3 ki-duotone ki-arrow-right"><span class="path1"></span><span class="path2" ></span></i>
+											</a>
+											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto ki-duotone ki-laptop fs-1"><span class="path1"></span><span class="path2"></span></i>Back To Website
+												<i class="w-auto h-auto bi ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center" style="--bs-icon-link-transform: rotate(-45deg);"><span class="fs-3 ki-duotone ki-arrow-right"><span class="path1"></span><span class="path2" ></span></i></a>
 
-											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto bi-window fs-4"></i>Back To Website
-												<i class="w-auto h-auto bi bi-arrow-right ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center" style="--bs-icon-link-transform: rotate(-45deg);"></i></a>
-
-											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto bi-link-45deg fs-4"></i>Create Friendly Links
-												<i class="w-auto h-auto bi bi-arrow-right ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center text-body" style="--bs-icon-link-transform: rotate(-45deg);"></i></a>
+											<a href="" class="border text-body bg-body text-start icon-link icon-link-hover btn btn-outline-light btn-lg w-100 d-flex align-items-center gap-2 fw-semibold" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly" style="--bs-icon-link-transform: none;"><i class="w-auto h-auto ki-duotone ki-fasten fs-1"><span class="path1"></span><span class="path2"></span></i>Create Friendly Links
+												<i class="w-auto h-auto bi ms-auto lh-1 bg-light p-3 rounded-circle d-flex align-items-center justify-content-center" style="--bs-icon-link-transform: rotate(-45deg);"><span class="fs-3 ki-duotone ki-arrow-right"><span class="path1"></span><span class="path2" ></span></i></a>
 										</div><!-- /.d-flex -->
 									</div><!-- /.col-12 -->
 								</div><!-- /.row -->
 
 								<div class="row">
 									<div class="col-12">
-										<h2 class="mb-4 h5 d-flex align-items-center"><i class="bi bi-stars fs-2 me-2 text-primary"></i>Upgrade</h2>
+										<h2 class="mb-4 h5 d-flex align-items-center">
+											<span class="ki-duotone ki-medal-star me-2 fs-2 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+											Upgrade</h2>
 										<div class="card mb-5 overflow-hidden position-relative">
 											<div class="row g-0">
 												<div class="col-lg-4 col-xl-3 d-flex align-items-center justify-content-center flex-shrink-0 bg-light" style="background:var(--bs-dark);min-height:200px">
@@ -58,7 +59,7 @@
 									<div class="col-xl pb-3">
 										<div class="card h-100">
 											<div class="p-5 d-flex gap-3">
-												<i class="bi bi-people fs-1 lh-1 text-primary"></i>
+												<span class="ki-duotone ki-profile-user fs-1 lh-1 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
 												<div>
 													<div class="h2">Users</div>
 													<p class="m-0 text-muted">A detailed list of all current users on your website, including both editors and admins. <span>Users with them email @revize.com are for our support team</span></p>
@@ -75,11 +76,11 @@
 												</li>
 											</ul>
 											<div class="card-footer border-top mt-auto bg-transparent p-3 px-5 d-flex align-items-center gap-3 justify-content-between flex-wrap flex-md-nowrap">
-												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="bi bi-person-plus fs-5"></i> Add Users</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="ki-duotone ki-user-tick fs-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i> Add Users</a>
 												<div class="vr d-none d-md-inline-block flex-shrink-0"></div>
-												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="bi bi-person-dash fs-5"></i> Remove Users</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="ki-duotone ki-user-edit fs-5"><span class="path1"></span><span class="path2"></span></i> Remove Users</a>
 												<div class="vr d-none d-md-inline-block flex-shrink-0"></div>
-												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="bi bi-people fs-5"></i> Manage Users</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><span class="ki-duotone ki-profile-user fs-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span> Manage Users</a>
 											</div>
 
 										</div><!-- /.card -->
@@ -87,24 +88,28 @@
 									<div class="col-xl pb-3">
 										<div class="card h-100">
 											<div class="p-5 d-flex gap-3">
-												<i class="bi bi-pie-chart fs-1 lh-1 text-primary"></i>
+												<i class="ki-duotone ki-chart-pie-4 fs-1 lh-1 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
 												<div>
 													<div class="h2">Stats</div>
 													<p class="m-0 text-muted">The total number of pages and documents available across your entire website, providing a comprehensive view of your site's content and resources.</p>
 												</div>
 											</div><!-- /.p-5 -->
 											<ul class="list-group list-group-flush border-bottom-0">
-												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2"><i class="bi bi-file-earmark me-3 align-bottom"></i>47</span>Total Pages
+												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2">
+													<i class="ki-duotone ki-note-2 me-3 align-bottom"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+													Total Pages
 												</li>
-												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2"><i class="bi bi-file-earmark-pdf me-3 align-bottom"></i>354</span>Total Documents
+												<li class="list-group-item p-3 px-5 d-flex justify-content-between align-items-center"><span class="h2">
+													<i class="ki-duotone ki-note me-3 align-bottom"><span class="path1"></span><span class="path2"></span></i>
+													354</span>Total Documents
 												</li>
 											</ul>
 											<div class="card-footer border-top mt-auto bg-transparent p-3 px-5 d-flex align-items-center gap-3 justify-content-between flex-wrap flex-md-nowrap">
-												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="bi bi-eye-slash fs-5"></i> Hidden Pages</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="ki-duotone ki-eye-slash fs-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> Hidden Pages</a>
 												<div class="vr d-none d-md-inline-block flex-shrink-0"></div>
-												<a href="" class="btn btn-link btn-sm mw-min-content  p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="bi bi-link-45deg fs-5"></i> Friendly Links</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content  p-0 d-flex align-items-center justify-content-md-center gap-2 text-dark text-decoration-none"><i class="ki-duotone ki-fasten align-bottom fs-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> Friendly Links</a>
 												<div class="vr d-none d-md-inline-block flex-shrink-0"></div>
-												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center content-center gap-2 text-dark text-decoration-none"><i class="bi bi-archive fs-5"></i> File Manager</a>
+												<a href="" class="btn btn-link btn-sm mw-min-content p-0 d-flex align-items-center justify-content-md-center content-center gap-2 text-dark text-decoration-none"><i class="ki-duotone ki-folder align-bottom fs-5"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> File Manager</a>
 											</div><!-- /.card-footer -->
 										</div><!-- /.card -->
 									</div><!-- /.col-xl -->

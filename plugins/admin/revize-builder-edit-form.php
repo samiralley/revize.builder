@@ -56,12 +56,19 @@
 							<div class="column-settings position-absolute w-auto left-top">
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-									<i class="bi bi-menu-button fs-4"></i>Accordion
+									<i class="ki-duotone ki-bookmark-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Blog
 								</div>
 							</div>
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
+								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
+								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
+									<i class="ki-duotone ki-picture fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Fancy Box
+								</div>
+							</div>
+							
 						</div><!-- /.col -->
 						<div class="col p-3 col-created bg-light border-dash-always gap-2 d-flex flex-column position-relative pt-5">
 							<i class="w-auto bi bi-grip-horizontal bg-body rounded-1 fs-5 align-content-center px-3 position-absolute center-top mt-2 cursor-grab"></i>
@@ -69,10 +76,10 @@
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
 
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
+							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-									<i class="bi bi-menu-button fs-4"></i>Accordion
+									<i class="ki-duotone ki-pencil fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>RTE
 								</div>
 							</div>
 						</div><!-- /.col -->
@@ -81,18 +88,18 @@
 							<div class="column-settings position-absolute w-auto left-top">
 								<a href="" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editFormModal">Column Settings</a>
 							</div><!-- /.column-settings -->
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
-								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-									<i class="bi bi-menu-button fs-4"></i>Accordion
+ 								<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
+									<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
+									<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
+										<i class="ki-duotone ki-abstract-49 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Tabs
+									</div>
 								</div>
-							</div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100">
-								<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
-								<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-									<i class="bi bi-menu-button fs-4"></i>Accordion
-								</div>
-							</div>
+ 							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
+								 <i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
+								 <div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
+									 <i class="ki-duotone ki-fat-rows fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Accordion
+								 </div>
+							 </div>
 						</div><!-- /.col -->
 					</div><!-- /.row-created-->
 					<div class="row-create p-3 position-relative border-dash-always">
@@ -126,7 +133,7 @@
 			<div class="rz-meta-box px-2 pb-2 border-bottom">
 				<form class="w-100 align-self-center position-relative" role="search" aria-label="Elements Search" aria-labelledby="Search Site">
 					<input class="form-control cursor-pointer ps-3" type="search" placeholder="Filter..." autocomplete="off">
-					<button class="btn btn-link position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center" style="height:1rem "></span><i class="bi bi-search"></i></button>
+					<button class="btn btn-link text-body position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center text-decoration-none" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center"></span><span class="text-body ki-duotone ki-magnifier fs-5"><span class="path1"></span><span class="path2"></span></span></button>
 				</form>
 			</div><!-- /.rz-meta-box -->
 
@@ -149,7 +156,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-columns fs-4"></i>Column
+											<span class="ki-duotone ki-row-vertical fs-3 m-auto"><span class="path1"></span><span class="path2"></span></span>Column
 										</div>
 									</div>
 								</div>
@@ -158,7 +165,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-list fs-4"></i>Row
+											<i class="ki-duotone ki-row-horizontal fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Row
 										</div>
 									</div>
 								</div>
@@ -167,7 +174,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-columns-gap fs-4"></i>Section
+											<i class="ki-duotone ki-slider-vertical-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Section
 										</div>
 									</div>
 								</div>
@@ -176,7 +183,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-textarea-t fs-4"></i>RTE
+											<i class="ki-duotone ki-pencil fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>RTE
 										</div>
 									</div>
 								</div>
@@ -185,7 +192,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-menu-button fs-4"></i>Accordion
+											<i class="ki-duotone ki-fat-rows fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Accordion
 										</div>
 									</div>
 								</div>
@@ -194,7 +201,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-list-ol fs-4"></i>Agenda List
+											<i class="ki-duotone ki-text-number fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>Agenda List
 										</div>
 									</div>
 								</div>
@@ -203,7 +210,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-exclamation-circle fs-4"></i>Alert
+											<i class="ki-duotone ki-information-5 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Alert
 										</div>
 									</div>
 								</div>
@@ -212,7 +219,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-menu-button-wide fs-4"></i>Anchor Buttons
+											<i class="ki-duotone ki-text-circle fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>Anchor Buttons
 										</div>
 									</div>
 								</div>
@@ -221,7 +228,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-chat fs-4"></i>Blog
+											<i class="ki-duotone ki-bookmark-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Blog
 										</div>
 									</div>
 								</div>
@@ -230,7 +237,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-shop-window fs-4"></i>Business Directory
+											<i class="ki-duotone ki-note-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Business Directory
 										</div>
 									</div>
 								</div>
@@ -239,7 +246,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-hr fs-4"></i>Divider
+											<i class="ki-duotone ki-password-check fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>Divider
 										</div>
 									</div>
 								</div>
@@ -248,7 +255,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-image fs-4"></i>Fancy Box
+											<i class="ki-duotone ki-picture fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Fancy Box
 										</div>
 									</div>
 								</div>
@@ -257,7 +264,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-image-fill fs-4"></i>Photo Gallery
+											<i class="ki-duotone ki-slider fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Photo Gallery
 										</div>
 									</div>
 								</div>
@@ -266,7 +273,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-card-image fs-4"></i>Hero
+											<i class="ki-duotone ki-slider-horizontal-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Hero
 										</div>
 									</div>
 								</div>
@@ -275,7 +282,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-vignette fs-4"></i>Icon Link
+											<i class="ki-duotone ki-mouse-square fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Icon Link
 										</div>
 									</div>
 								</div>
@@ -284,7 +291,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-building fs-4"></i>Job Post
+											<i class="ki-duotone ki-briefcase fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Job Post
 										</div>
 									</div>
 								</div>
@@ -293,7 +300,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-tag fs-4"></i>Label
+											<i class="ki-duotone ki-clipboard fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Label
 										</div>
 									</div>
 								</div>
@@ -302,7 +309,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-link fs-4"></i>Link List
+											<i class="ki-duotone ki-text-circle fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>Link List
 										</div>
 									</div>
 								</div>
@@ -311,7 +318,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-card-text fs-4"></i>Marquee
+											<i class="ki-duotone ki-subtitle fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>Marquee
 										</div>
 									</div>
 								</div>
@@ -320,7 +327,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-newspaper fs-4"></i>News List
+											<i class="ki-duotone ki-book fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>News List
 										</div>
 									</div>
 								</div>
@@ -329,7 +336,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-envelope fs-4"></i>Newsletter
+											<i class="ki-duotone ki-directbox-default fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Newsletter
 										</div>
 									</div>
 								</div>
@@ -338,7 +345,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-link fs-4"></i>Quick Link
+											<i class="ki-duotone ki-fasten fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Quick Link
 										</div>
 									</div>
 								</div>
@@ -347,7 +354,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-filetype-html fs-4"></i>Raw Html
+											<i class="ki-duotone ki-code fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Raw Html
 										</div>
 									</div>
 								</div>
@@ -356,7 +363,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-textarea-t fs-4"></i>RTE
+											<i class="ki-duotone ki-subtitle fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>Section Header
 										</div>
 									</div>
 								</div>
@@ -365,7 +372,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-card-heading fs-4"></i>Section Header
+											<i class="ki-duotone ki-picture fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Single Image
 										</div>
 									</div>
 								</div>
@@ -374,7 +381,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-file-image fs-4"></i>Single Image
+											<i class="ki-duotone ki-slider-horizontal-2 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Slider
 										</div>
 									</div>
 								</div>
@@ -383,7 +390,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-images fs-4"></i>Slider
+											<i class="ki-duotone ki-heart fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Social Icons
 										</div>
 									</div>
 								</div>
@@ -392,7 +399,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-collection-play fs-4"></i>Social Icons
+											<i class="ki-duotone ki-people fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>Staff Directory
 										</div>
 									</div>
 								</div>
@@ -401,7 +408,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-people fs-4"></i>Staff Directory
+											<i class="ki-duotone ki-user fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Staff Member
 										</div>
 									</div>
 								</div>
@@ -410,7 +417,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-person fs-4"></i>Staff Member
+											<i class="ki-duotone ki-burger-menu fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>Submenu
 										</div>
 									</div>
 								</div>
@@ -419,7 +426,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-menu-button-wide fs-4"></i>Submenu
+											<i class="ki-duotone ki-abstract-49 fs-3 m-auto"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Tabs
 										</div>
 									</div>
 								</div>
@@ -428,16 +435,7 @@
 									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
 										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
 										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-segmented-nav fs-4"></i>Tabs
-										</div>
-									</div>
-								</div>
-
-								<div class="d-flex">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex w-100 h-100">
-										<i class="bi bi-grip-vertical bg-light rounded-1 fs-5 align-content-center"></i>
-										<div class="d-flex w-100 flex-column text-center p-2 gap-2 justify-content-center small lh-sm">
-											<i class="bi bi-quote fs-4"></i>Quote
+											<i class="ki-duotone ki-happy-emoji fs-3 m-auto"><span class="path1"></span><span class="path2"></span></i>Quote
 										</div>
 									</div>
 								</div>

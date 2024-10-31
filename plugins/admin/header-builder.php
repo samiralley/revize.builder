@@ -25,7 +25,7 @@
 		<div class="center-col-wrap w-100 d-flex flex-column">
 			<div class="d-flex align-items-center justify-content-between border-bottom px-4 py-3">
 				<h1 class="h4 m-0">Header Builder</h1>
-				<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Create a new header</a>
+				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new header</a>
 			</div><!-- /.d-flex -->
 			<div class="center-col-inner overflow-auto flex-fill p-4">
 				<div class="col-lg-12 m-auto">

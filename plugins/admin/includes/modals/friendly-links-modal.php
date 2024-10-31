@@ -16,14 +16,14 @@
 		<div class="container">
 
 			<div class="p-5 text-center text-white d-block mb-4 bg-dark rounded">
-				<div class="d-inline-flex bg-black mb-3 px-2 py-1 small rounded">Get started</div>
-				<h2 class="border-0 m-0 pb-2">No Friendly links yet</h2>
+				<div class="d-inline-flex bg-success mb-3 px-2 py-1 small rounded">Get started</div>
+				<h2 class="border-0 m-0 pb-2 text-white">No Friendly links yet</h2>
 				<p class="rz-lead">Start by creating your first friendly link below</p>
-				<a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFormModal">Create</a>
+				<a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFormModal">Create a friendly link</a>
 			</div><!-- /.p-5 -->
 
 			<div class="d-flex">
-				<a href="" class="d-inline-flex ms-auto mb-3 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Create a new link</a>
+				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new link</a>
 			</div>
 
 			<div class="card p-4 mb-2">

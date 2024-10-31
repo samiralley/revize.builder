@@ -7,26 +7,40 @@
 					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#rznavOffcanvas" aria-label="Close"></button>
 				</div>
 				<div class="sticky-top d-flex flex-column p-3 bg-body">
-					<a class="nav-link active mb-1 d-flex align-items-center gap-2" href="./"><i class="bi bi-house fs-5 me-1"></i>Dashboard</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly"><i class="bi bi-emoji-laughing fs-5 me-1"></i>Create Friendly Links</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHidden" aria-controls="offcanvasHidden"><i class="bi bi-window-x fs-5 me-1"></i>Create Hidden Pages</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="#"><i class="bi bi-people fs-5 me-1"></i>Manage Users</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="#"><i class="bi bi-archive fs-5 me-1"></i>File Manager</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="header-builder.php"><i class="bi bi-card-heading fs-5 me-1"></i>Header builder <span class="badge p-2 text-white bg-success">New</span></a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="footer-builder.php"><i class="bi bi-window-desktop fs-5 me-1"></i>Footer builder</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="header-builder-list.php"><i class="bi bi-card-heading fs-5 me-1"></i>Headers <span class="badge p-2 text-white bg-danger">New</span></a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="footer-builder-list.php"><i class="bi bi-window-desktop fs-5 me-1"></i>Footers</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="freeform-edit-form.php"><i class="bi bi-columns fs-5 me-1"></i>freeform edit form</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="revize-builder-edit-form.php"><i class="bi bi-columns-gap fs-5 me-1"></i>revize.builder edit form</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="game.php"><i class="bi bi-joystick fs-5 me-1"></i>Game</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="list-edit-form.php"><i class="bi bi-card-list fs-5 me-1"></i>Edit list form</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="options.php"><i class="bi bi-sliders2 fs-5 me-1"></i>Site Options</a>
-					<a class="nav-link mb-1 d-flex align-items-center gap-2" href="changelog.php"><i class="bi bi-card-checklist fs-5 me-1"></i>Change log</a>
+					<a class="nav-link active mb-1 d-flex align-items-center" href="./"><span class="ki-duotone ki-home-2"><span class="path1"></span><span class="path2"></span></span>Dashboard</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly"><span class="ki-duotone ki-emoji-happy"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>Create Friendly Links</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHidden" aria-controls="offcanvasHidden"><span class="ki-duotone ki-file-deleted"><span class="path1"></span><span class="path2"></span></span>Create Hidden Pages</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="#"><span class="ki-duotone ki-user-edit"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>Manage Users</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="#"><span class="ki-duotone ki-folder"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>File Manager</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="header-builder.php"><span class="ki-duotone ki-element-9"><span class="path1"></span><span class="path2"></span></span>Header builder <span class="badge p-2 text-white bg-success">New</span></a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="footer-builder.php"><span class="ki-duotone ki-element-1"><span class="path1"></span><span class="path2"></span><span class="path3"><span class="path4"></span></span></span>Footer builder</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="header-builder-list.php"><span class="ki-duotone ki-element-6"><span class="path1"></span><span class="path2"></span><span class="path3"><span class="path4"></span></span></span>Headers <span class="badge p-2 text-white bg-danger">New</span></a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="footer-builder-list.php"><span class="ki-duotone ki-fat-rows"><span class="path1"></span><span class="path2"></span><span class="path3"><span class="path4"></span></span></span>Footers</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="freeform-edit-form.php"><span class="ki-duotone ki-fat-rows"><span class="path1"></span><span class="path2"></span><span class="path3"><span class="path4"></span></span></span>freeform edit form</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="revize-builder-edit-form.php"><span class="ki-duotone ki-design"><span class="path1"></span><span class="path2"></span></span>revize.builder edit form</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="game.php"><span class="ki-duotone ki-joystick"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>Game</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="list-edit-form.php"><span class="ki-duotone ki-row-horizontal"><span class="path1"></span><span class="path2"></span></span>Edit list form</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="options.php"><span class="ki-duotone ki-color-swatch"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span></span>Site Options</a>
+					
+					<a class="nav-link mb-1 d-flex align-items-center" href="changelog.php"><span class="ki-duotone ki-data"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>Change log</a>
 				</div>
 			</div>
 		 
 		<div class="upgrade mt-auto sticky-bottom text-center bg-body border-top p-3">
-			<a href="" class="btn btn-primary d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Upgrade now</a>
+			<a href="" class="btn btn-warning d-block btn-sm rounded-pill" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Upgrade now</a>
 			<p class="p-3 pb-0 m-0 v-small text-center text-muted">© 2024 by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 		</div><!-- /.upgrade -->
 	</div><!-- /.left-col-inner -->

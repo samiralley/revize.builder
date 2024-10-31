@@ -26,7 +26,7 @@
 		<div class="center-col-wrap w-100 d-flex flex-column">
 			<div class="d-flex align-items-center justify-content-between border-bottom px-4 py-3">
 				<h1 class="h4 m-0">Footer Builder</h1>
-				<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Create a new footer</a>
+				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new footer</a>
 			</div><!-- /.d-flex -->
 			<div class="center-col-inner overflow-auto flex-fill p-4">
 				<div class="col-lg-12 m-auto">
@@ -40,44 +40,44 @@
 						<div class="p-3 border rounded">
 							<div class="footer-top d-flex gap-2">
 								<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-image fs-5 me-2"></i>Logo
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 									</div>
 								</div><!-- /.p-3 -->
 								<div class="p-3 gap-2 flex-fill flex-shrink-1 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 									</div>
 								</div><!-- /.p-3 -->
 								<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-mailbox-flag fs-5 me-2"></i>Contact
 									</div>
 								</div><!-- /.p-3 -->
 							</div><!-- /.footer-top -->
 							<div class="footer-middle d-flex gap-2 my-2">
 								<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Social
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
 								</div><!-- /.p-3 -->
 								<div class="p-3 gap-2 flex-fill bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-geo-alt fs-5 me-2"></i>Location
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-geo-alt fs-5 me-2"></i>Location
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
 								</div><!-- /.p-3 -->
@@ -87,35 +87,35 @@
 							</div><!-- /.footer-middle -->
 							<div class="footer-bottom d-flex gap-2">
 								<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>									
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 									</div>
 								</div><!-- /.p-3 -->
 								<div class="p-3 gap-2 flex-fill flex-shrink-1 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-translate fs-5 me-2"></i>Translate
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-translate fs-5 me-2"></i>Translate
 									</div>
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-collection-play fs-5 me-2"></i>Socials
 									</div>
 								</div><!-- /.p-3 -->
 								<div class="p-3 gap-2 bg-light border-dash-always d-flex align-items-start flex-wrap align-content-start">
-									<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+									<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 										<i class="bi bi-mailbox-flag fs-5 me-2"></i>Contact
 									</div>
 								</div><!-- /.p-3 -->
@@ -182,7 +182,7 @@
 			<div class="rz-meta-box p-4 border-bottom">
 				<form class="w-100 align-self-center position-relative" role="search" aria-label="Elements Search">
 					<input aria-label="Filter" class="form-control cursor-pointer ps-3" type="search" placeholder="Filter..." autocomplete="off">
-					<button class="btn btn-link position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center" style="height:1rem "></span><i class="bi bi-search"></i></button>
+					<button class="btn btn-link text-body position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center text-decoration-none" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center"></span><span class="text-body ki-duotone ki-magnifier fs-5"><span class="path1"></span><span class="path2"></span></span></button>
 				</form>
 			</div><!-- /.rz-meta-box -->
 
@@ -192,77 +192,77 @@
 					<div class="rz-meta-box row row-cols-xl-1 g-2" id="draggableElements">
 
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-image fs-5 me-2"></i>Logo
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-search fs-5 me-2"></i>Toggle
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-textarea-resize fs-5 me-2"></i>Input
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-translate fs-5 me-2"></i>Translate
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-universal-access-circle fs-5 me-2"></i>ADA
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-link-45deg fs-5 me-2"></i>Buttons
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-geo-alt fs-5 me-2"></i>Location
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-plus-slash-minus fs-5 me-2"></i>Font Sizer
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-brightness-low fs-5 me-2"></i>Weather
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-collection-play fs-5 me-2"></i>Social
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-textarea-t fs-5 me-2"></i>RTE
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-exclamation-circle fs-5 me-2"></i>Alert
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-hr fs-5 me-2"></i>Divider
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-mailbox-flag fs-5 me-2"></i>Contact
 							</div>
 						</div>
 						<div>
-							<div class="btn bg-body text-start p-2 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
+							<div class="btn bg-body text-start p-2 pe-3 border-dash-always hover-shadow d-flex align-items-center"><i class="bi bi-grip-vertical me-3 bg-light rounded-1 fs-5"></i>
 								<i class="bi bi-envelope fs-5 me-2"></i>Subscription
 							</div>
 						</div>

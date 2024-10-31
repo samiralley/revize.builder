@@ -25,7 +25,7 @@
 		<div class="center-col-wrap w-100 d-flex flex-column">
 			<div class="d-flex align-items-center justify-content-between border-bottom px-4 py-3">
 				<h1 class="h4 m-0">Headers List</h1>
-				<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-success lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg text-white"></i></span>Create a new header</a>
+				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new footer</a>
 			</div><!-- /.d-flex -->
 			<div class="center-col-inner overflow-auto flex-fill p-4">
 				<div class="col-lg-12 m-auto">
@@ -45,10 +45,18 @@
 								<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
 							</div>
 							<div class="d-flex gap-4 align-items-center p-4">
-								<div class="col-2 border-end"><div class="d-flex h-100"><i class="bi bi-x-lg fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Active on:<br></span> No pages</div></div></div>
-								<div class="col-2 border-end"><div class="d-flex h-100"><i class="bi bi-person fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Crated by:<br></span> Samir Alley</div></div></div>
-								<div class="col-2"><div class="d-flex h-100"><i class="bi bi-clock fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Created on:<br></span> Oct 12, 2027</div></div></div>
-									<div class="col"><div class="d-flex alert alert-danger bg-body p-2 px-3"><i class="bi bi-info-circle fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Notes:<br></span> Used for testing headers and</div></div></div>
+								<div class="col-2 border-end"><div class="d-flex h-100">
+									<i class="ki-duotone ki-cross fs-2 me-2"><span class="path1"></span><span class="path2"></span></i>
+									<div><span class="text-muted">Active on:<br></span> No pages</div></div></div>
+								<div class="col-2 border-end"><div class="d-flex h-100">
+									<i class="ki-duotone ki-user-edit fs-4 me-3 mt-1"><span class="path1"></span><span class="path2"></span></i>
+									<div><span class="text-muted">Crated by:<br></span> Samir Alley</div></div></div>
+								<div class="col-2"><div class="d-flex h-100">
+									<i class="ki-duotone ki-time fs-4 me-3"><span class="path1"></span><span class="path2"></span></i>
+									<div><span class="text-muted">Created on:<br></span> Oct 12, 2027</div></div></div>
+									<div class="col"><div class="d-flex alert alert-danger bg-body p-2 px-3 align-items-center">
+									<i class="ki-duotone ki-information-4 fs-4 me-3"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+									<div><span class="text-muted">Notes:<br></span> Used for testing headers and</div></div></div>
 							</div><!-- /.d-flex -->
 						</div><!-- /.card -->
 					</div><!-- /.header-created -->
@@ -66,10 +74,18 @@
 									<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
 								</div>
 								<div class="d-flex gap-4 align-items-center p-4">
-									<div class="col-2 border-end"><div class="d-flex h-100"><i class="bi bi-check2 fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Active on:<br></span> 100+ pages</div></div></div>
-									<div class="col-2 border-end"><div class="d-flex h-100"><i class="bi bi-person fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Crated by:<br></span> Samir Alley</div></div></div>
-									<div class="col-2"><div class="d-flex h-100"><i class="bi bi-clock fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Created on:<br></span> Oct 12, 2027</div></div></div>
-									<div class="col"><div class="d-flex alert alert-success bg-body p-2 px-3"><i class="bi bi-info-circle fs-4 me-3 align-bottom text-muted"></i><div><span class="text-muted">Notes:<br></span> Used for testing headers and</div></div></div>
+									<div class="col-2 border-end"><div class="d-flex h-100">
+										<i class="ki-duotone ki-cross fs-2 me-2"><span class="path1"></span><span class="path2"></span></i>
+										<div><span class="text-muted">Active on:<br></span> No pages</div></div></div>
+									<div class="col-2 border-end"><div class="d-flex h-100">
+										<i class="ki-duotone ki-user-edit fs-4 me-3 mt-1"><span class="path1"></span><span class="path2"></span></i>
+										<div><span class="text-muted">Crated by:<br></span> Samir Alley</div></div></div>
+									<div class="col-2"><div class="d-flex h-100">
+										<i class="ki-duotone ki-time fs-4 me-3"><span class="path1"></span><span class="path2"></span></i>
+										<div><span class="text-muted">Created on:<br></span> Oct 12, 2027</div></div></div>
+										<div class="col"><div class="d-flex alert alert-success bg-body p-2 px-3 align-items-center">
+											<i class="ki-duotone ki-information-4 fs-4 me-3"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+											<div><span class="text-muted">Notes:<br></span> Used for testing headers and</div></div></div>
 								</div><!-- /.d-flex -->
 							</div><!-- /.card -->
 						</div><!-- /.header-created -->

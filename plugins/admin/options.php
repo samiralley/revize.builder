@@ -31,7 +31,7 @@
 
 					<form class="w-100 align-self-center position-relative mb-4" role="search" aria-label="Elements Search">
 						<input aria-label="Search Site" class="form-control cursor-pointer ps-3" type="search" placeholder="Find it..." autocomplete="off">
-						<button class="btn btn-link position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center" style="height:1rem "></span><i class="bi bi-search"></i></button>
+						<button class="btn btn-link position-absolute top-50 end-0 translate-middle-y gap-3 ps-0 lh-1 d-flex align-items-center text-decoration-none" aria-label="Search" tabindex="0"><span class="vr d-inline-flex align-self-center"></span><span class="text-body ki-duotone ki-magnifier fs-5"><span class="path1"></span><span class="path2"></span></span></button>
 					</form>
 
 					<div class="tab-pane fade show active" id="general-tab-pane" role="tabpanel" aria-labelledby="general-tab" tabindex="0">

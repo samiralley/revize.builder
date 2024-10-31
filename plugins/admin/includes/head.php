@@ -21,14 +21,15 @@
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-	<!-- #layout css -->
+	<link rel="stylesheet" href="_assets_/font-icons/font/duotone/style.css">
+	<link rel="stylesheet" href="_assets_/font-icons/font/outline/style.css">
+	<link rel="stylesheet" href="_assets_/font-icons/font/solid/style.css">
+	
 	<link href="_assets_/css/layout.css" rel="stylesheet">
 </head>
 
