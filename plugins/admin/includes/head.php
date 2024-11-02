@@ -48,7 +48,7 @@
 		</main>
 
 		<footer class="mt-auto text-primary">
-			<p class="m-0 small text-muted">&copy; <?php echo date("Y"); ?> by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
+			<p class="p-2 pb-0 m-0 v-small text-muted">© <?php echo date("Y"); ?> with <i class="bi bi-heart-fill"></i> by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 		</footer>
 	</div>
 	<!-- #note must be logged in splash page -->

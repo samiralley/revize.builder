@@ -23,7 +23,8 @@
 			</div><!-- /.p-5 -->
 
 			<div class="d-flex">
-				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new link</a>
+				
+				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new link</a>
 			</div>
 
 			<div class="card p-4 mb-2">
@@ -34,8 +35,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 text-danger fs-6"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->
@@ -49,8 +50,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 text-danger fs-6"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->
@@ -64,8 +65,8 @@
 					</div>
 					<div class="rz-action-btns">
 						<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-							<span aria-label="Edit" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-							<span aria-label="Delete" tabindex="0" role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+							<span aria-label="Edit" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+							<span aria-label="Delete" tabindex="0" role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 text-danger fs-6"></i></span>
 						</div>
 					</div><!-- /.rz-action-btns -->
 				</div><!-- /.d-flex -->

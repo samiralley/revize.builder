@@ -32,7 +32,7 @@
 							</th>
 							<th scope="col" class="bg-black">
 								<i class="bi bi-award-fill text-warning fs-2"></i>
-								<h2 class="text-white">Pro.<span class="fs-6 bg-warning text-dark py-1 px-2 rounded-3 ms-1 align-middle">Plus</span></h2>
+								<h2><span class="text-white">Pro.</span><span class="badge-plus fs-6 bg-warning py-1 px-2 rounded-3 ms-1 align-middle">Plus</span></h2>
 								<p class="fw-normal small text-white discription">Perfect for communities seeking ultimate flexibility and limitless possibilities.</p><a href="" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#contactSales">Let's Talk</a>
 							</th>
 						</tr>
@@ -201,7 +201,7 @@
 					<div class="mb-3">
 						<label for="emailInput" class="form-label fw-bold">Email address</label>
 						<input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
-						<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						<div id="emailHelp" class="form-text">We'll never share your email with anyone</div>
 					</div>
 					<div class="mb-3">
 						<label for="commentsInput" class="form-label fw-bold">Comments</label>

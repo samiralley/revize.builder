@@ -36,8 +36,8 @@
 								<div class="row">
 									<div class="col-12">
 										<h2 class="mb-4 h5 d-flex align-items-center">
-											<span class="ki-duotone ki-medal-star me-2 fs-2 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-											Upgrade</h2>
+											<span class="ki-duotone ki-medal-star me-2 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+											Upgrade Today</h2>
 										<div class="card mb-5 overflow-hidden position-relative">
 											<div class="row g-0">
 												<div class="col-lg-4 col-xl-3 d-flex align-items-center justify-content-center flex-shrink-0 bg-light" style="background:var(--bs-dark);min-height:200px">
@@ -59,7 +59,7 @@
 									<div class="col-xl pb-3">
 										<div class="card h-100">
 											<div class="p-5 d-flex gap-3">
-												<span class="ki-duotone ki-profile-user fs-1 lh-1 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+												<span class="ki-duotone ki-profile-user fs-1 lh-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
 												<div>
 													<div class="h2">Users</div>
 													<p class="m-0 text-muted">A detailed list of all current users on your website, including both editors and admins. <span>Users with them email @revize.com are for our support team</span></p>
@@ -88,7 +88,7 @@
 									<div class="col-xl pb-3">
 										<div class="card h-100">
 											<div class="p-5 d-flex gap-3">
-												<i class="ki-duotone ki-chart-pie-4 fs-1 lh-1 text-primary"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+												<i class="ki-duotone ki-chart-pie-4 fs-1 lh-1"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
 												<div>
 													<div class="h2">Stats</div>
 													<p class="m-0 text-muted">The total number of pages and documents available across your entire website, providing a comprehensive view of your site's content and resources.</p>

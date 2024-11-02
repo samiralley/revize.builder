@@ -10,7 +10,7 @@
 	</main>
 
 	<footer class="mt-auto text-primary">
-		<p class="m-0 small text-muted">&copy; <?php echo date("Y"); ?> by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
+		<p class="m-0 small text-muted">© <?php echo date("Y"); ?> with <i class="bi bi-heart-fill"></i> by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 	</footer>
 </div>
 <!-- #note no editing on smaller devices -->
@@ -25,7 +25,7 @@
 		<div class="center-col-wrap w-100 d-flex flex-column">
 			<div class="d-flex align-items-center justify-content-between border-bottom px-4 py-3">
 				<h1 class="h4 m-0">Footers List</h1>
-				<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new footer</a>
+				<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create a new footer</a>
 			</div><!-- /.d-flex -->
 			<div class="center-col-inner overflow-auto flex-fill p-4">
 				<div class="col-lg-12 m-auto">
@@ -40,9 +40,9 @@
 							<div class="inactive-footer d-flex flex-wrap gap-1 align-items-center px-4 py-3 border-bottom">
 								<h5 class="m-0">footer Name</h5>
 								<div class="w-100 d-xl-none"></div>
-								<a href="" class="ms-xl-auto btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit styles</a>
-								<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit with builder</a>
-								<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
+								<a href="" class="ms-xl-auto btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit styles</a>
+								<a href="" class="btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit with builder</a>
+								<a href="" class="btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
 							</div>
 							<div class="d-flex gap-4 align-items-center p-4">
 								<div class="col-2 border-end"><div class="d-flex h-100">
@@ -69,9 +69,9 @@
 								<div class="active-footer d-flex flex-wrap gap-1 align-items-center px-4 py-3 border-bottom">
 									<h5 class="m-0">footer Name</h5>
 									<div class="w-100 d-xl-none"></div>
-									<a href="" class="ms-xl-auto btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit styles</a>
-									<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit with builder</a>
-									<a href="" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
+									<a href="" class="ms-xl-auto btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit styles</a>
+									<a href="" class="btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Edit with builder</a>
+									<a href="" class="btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal">Export</a>
 								</div>
 								<div class="d-flex gap-4 align-items-center p-4">
 									<div class="col-2 border-end"><div class="d-flex h-100">

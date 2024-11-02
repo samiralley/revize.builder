@@ -6,13 +6,13 @@
 	<div class="rz-admin-inner d-lg-flex flex-fill overflow-y-auto overflow-x-hidden">
 
 		<div class="center-col-wrap w-100 d-flex flex-column bg-body">
-			<div class="d-flex align-items-center border-bottom px-4 py-3 gap-2">
+			<div class="d-flex align-items-center border-bottom p-3 gap-1">
 				<h1 class="h5 m-0">Editing page</h1>
-				<div class="savebtns ms-auto d-flex align-items-center gap-2">
-					<a href="" class="btn btn-outline-light d-flex align-items-center justify-content-center">Save as draft</a>
-					<a href="" class="btn btn-primary d-flex align-items-center justify-content-center">Publish</a>
+				<div class="savebtns ms-auto d-flex align-items-center gap-1">
+					<a href="" class="btn btn-sm btn-primary d-flex align-items-center justify-content-center">Publish</a>
+					<a href="" class="btn btn-sm btn-outline-light d-flex align-items-center justify-content-center">Save as draft</a>					
 				</div>
-				<button class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center freeformPagesSettings"><span class="bi d-flex align-items-center flex-shrink-0 lh-1 rounded-circle fs-5 me-1"><i class="bi bi-layout-sidebar-inset-reverse"></i></span>Toggle settings</button>
+				<button class="icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center freeformPagesSettings"><span class="bi d-flex align-items-center flex-shrink-0 lh-1 rounded-circle fs-5 me-1"><i class="bi bi-layout-sidebar-inset-reverse"></i></span>Toggle settings</button>
 			</div><!-- /.d-flex -->
 			<div data-bs-theme="light" class="center-col-inner overflow-y-auto overflow-x-hidden flex-fill p-4 bg-light">
 				<div class="col-xl-8 m-auto">
@@ -20,8 +20,12 @@
 					<div class="rz-meta-box" data-bs-theme="light">
 
 						<input type="text" class="form-control form-control-lg border-0 fs-1 fw-bold py-5 px-0 text-body outline-0 shadow-none mb-2 bg-transparent" id="metatitle" placeholder="Type a page title here...">
+						
+						<p class="text-muted">Page Content</p>
 
 						<textarea aria-label="Page content" rows="30" class="form-control" placeholder="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla."></textarea>
+						
+					<p class="p-2 pb-0 m-0 v-small text-muted">© <?php echo date("Y"); ?> with <i class="bi bi-heart-fill"></i> by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 
 					</div><!-- /.rz-meta-box -->
 
@@ -30,9 +34,12 @@
 			</div><!-- /.center-col-inner -->
 
 			<div class="sticky-bottom border-top d-flex py-1 bg-light px-3 align-items-center bg-body">
-				<p class="mt-2 mb-1 h6 d-flex align-items-center"><i class="bi bi-columns-gap fs-5 p-3 bg-primary text-white lh-1 rounded-circle me-2"></i>Get much more flexibility with the revize.builder</p>
+				<p class="mt-2 mb-1 h6 d-flex align-items-center">
+					<span class="fs-2 d-flex align-items-center justify-content-center bg-primary text-white rounded-circle me-2 p-2">
+					<i class="ki-duotone ki-bucket text-gray-900 fs-2tx"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>
+					</span>Get much more flexibility with the revize.builder</p>
 				<div class="upgrade text-center ms-auto">
-					<a href="" class="btn btn-primary d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Learn More</a>
+					<a href="" class="btn btn-sm btn-warning d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Learn More</a>
 				</div>
 			</div><!-- /.sticky-bottom -->
 
@@ -57,7 +64,7 @@
 						</select>
 					</div>
 
-					<div class="mb-2 d-flex align-items-center">
+					<div class="d-flex align-items-center">
 						<label class="form-check-label mw-max-content pe-4" for="selectHeader">Footer</label>
 						<select id="selectHeader" class="form-control form-control-sm form-select form-select-sm">
 							<option selected="">Main</option>
@@ -110,16 +117,16 @@
 						<label class="form-check-label" for="hideSlider">Hide Slider</label>
 					</div>
 
-					<div class="mb-2 d-flex">
-						<label class="form-check-label mw-max-content pe-4" for="breadcrumbsPosition">Breadcrumbs<br>position</label>
+					<div class="mb-2">
+						<label class="form-label mb-1" for="breadcrumbsPosition">Breadcrumbs position</label>
 						<select id="breadcrumbsPosition" class="form-control form-control-sm form-select form-select-sm" style="">
 							<option selected="">Above page title</option>
 							<option>Below page title</option>
 						</select>
 					</div>
 
-					<div class="mb-2 d-flex">
-						<label class="form-check-label mw-max-content pe-4" for="titlePosition">Page title <br>position</label>
+					<div>
+						<label class="form-label mb-1" for="titlePosition">Page title position</label>
 						<select id="titlePosition" class="form-control form-control-sm form-select form-select-sm" style="">
 							<option selected="">Above content</option><!-- /.default -->
 							<option>Over hero/slider</option>
@@ -146,13 +153,12 @@
 			<div class="rz-meta-box mt-auto shadow-sm border-top p-3 bg-body sticky-bottom">
 				<div class="row row-cols-2 g-2 flex-wrap">
 					<div class="mw-max-content">
-						<a href="" class="btn w-100 btn-primary d-flex align-items-center justify-content-center px-0">Publish</a>
+						<a href="" class="btn btn-sm w-100 btn-primary d-flex align-items-center justify-content-center px-0">Publish</a>
 					</div>
 
 					<div class="mw-max-content">
-						<a href="" class="btn w-100 btn-outline-light d-flex align-items-center justify-content-center px-0">Save as draft</a>
+						<a href="" class="btn btn-sm w-100 btn-outline-light d-flex align-items-center justify-content-center px-0">Save as draft</a>
 					</div>
-					<p class="p-3 pb-0 m-0 v-small text-center text-muted w-100">© 2024 by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 				</div><!-- /.row -->
 			</div><!-- /.rz-meta-box -->
 

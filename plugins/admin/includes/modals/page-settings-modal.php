@@ -1,5 +1,5 @@
 <!-- #done -->
-<div class="offcanvas offcanvas-start" style="--bs-offcanvas-width:380px" tabindex="-1" id="offcanvasPagesSettings" aria-labelledby="offcanvasPagesSettingsLabel">
+<div class="offcanvas offcanvas-start" style="--bs-offcanvas-width:300px" tabindex="-1" id="offcanvasPagesSettings" aria-labelledby="offcanvasPagesSettingsLabel">
 	<div class="offcanvas-header border-bottom">
 		<h6 class="offcanvas-title" id="offcanvasPagesSettingsLabel">Page Settings</h6>
 		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -69,16 +69,16 @@
 				<label class="form-check-label" for="hideSlider">Hide Slider</label>
 			</div>
 
-			<div class="mb-2 d-flex">
-				<label class="form-check-label mw-max-content pe-4 small" for="breadcrumbsPosition">Breadcrumbs<br>position</label>
+			<div class="mb-2">
+				<label class="form-label mb-1 small" for="breadcrumbsPosition">Breadcrumbs position</label>
 				<select id="breadcrumbsPosition" class="form-control form-control-sm form-select form-select-sm" style="">
 					<option selected="">Above page title</option>
 					<option>Below page title</option>
 				</select>
 			</div>
 
-			<div class="mb-2 d-flex">
-				<label class="form-check-label mw-max-content pe-4 small" for="titlePosition">Page title <br>position</label>
+			<div>
+				<label class="form-label mb-1 small" for="titlePosition">Page title position</label>
 				<select id="titlePosition" class="form-control form-control-sm form-select form-select-sm" style="">
 					<option selected="">Above content</option><!-- /.default -->
 					<option>Over hero/slider</option>
@@ -104,10 +104,10 @@
 	<div class="rz-meta-box mt-auto shadow-sm border-top p-3 bg-body sticky-bottom">
 		<div class="row row-cols-md-2 g-2 flex-wrap">
 			<div class="mw-max-content">
-				<a href="" class="btn w-100 btn-primary d-flex align-items-center justify-content-center">Publish</a>
+				<a href="" class="btn btn-sm w-100 btn-primary d-flex align-items-center justify-content-center">Publish</a>
 			</div>
 			<div class="mw-max-content">
-				<a href="" class="btn w-100 btn-outline-light d-flex align-items-center justify-content-center">Save as draft</a>
+				<a href="" class="btn btn-sm w-100 btn-outline-light d-flex align-items-center justify-content-center">Save as draft</a>
 			</div>
 		</div><!-- /.row -->
 	</div><!-- /.rz-meta-box -->

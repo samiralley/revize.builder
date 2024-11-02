@@ -41,9 +41,10 @@
 		<link href="_assets_/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	
-	<!-- #tiny sider css -->	
-		<link href="_assets_/plugins/tiny-slider/dist/tiny-slider.css" rel="stylesheet" >
-	
+	<!-- #tiny sider -->	
+		<link href="_assets_/plugins/tiny-slider/dist/tiny-slider.css" rel="stylesheet">
+		<script src="_assets_/plugins/tiny-slider/dist/min/tiny-slider.js"></script>
+		
 	<!-- #font awesome css -->		
 		<link href="_assets_/fonts/font-awesome/css/all.min.css" rel="stylesheet" >
 	

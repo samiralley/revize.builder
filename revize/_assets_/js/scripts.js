@@ -664,12 +664,85 @@
         controlsText: ['<i class="bi bi-chevron-left" aria-hidden="true"></i>', '<i class="bi bi-chevron-right" aria-hidden="true"></i>'],
       });
     });
+    $(".iwantto-slider").each(function (i, el) {
+      var $el = $(el);
+      var tinyItemCount = $el.children().length;
+      var tinyItemData = $el.data("tinyItems") ? $el.data("tinyItems") : 1;
+      var tinyItemDataSm = $el.data("tinyItemsSm") ? $el.data("tinyItemsSm") : 1;
+      var tinyItemDataMd = $el.data("tinyItemsMd") ? $el.data("tinyItemsMd") : 1;
+      var tinyGapData = $el.data("tinyGap") ? $el.data("tinyGap") : 0;
+      var tinyNavData = $(el).data("tiny-nav");
+      var tinyControlsData = $(el).data("tiny-controls");
+      var tinyAutoplayButtonsData = $(el).data("tiny-autoplay-buttons");
+      var tinyAutoplayData = $(el).data("tiny-autoplay");
+      var tinyEdgePaddingData = $(el).data("tiny-padding-x");
+    
+      tns({
+        container: el,
+        items: Math.min(tinyItemCount, tinyItemData),
+        responsive: {
+          0: {
+            items: Math.min(tinyItemCount, tinyItemDataSm),
+          },
+          768: {
+            items: Math.min(tinyItemCount, tinyItemDataMd),
+          },
+          1200: {
+            items: Math.min(tinyItemCount, tinyItemData),
+          },
+        },
+        nav: tinyNavData,
+        loop: false,
+        axis:"vertical",
+        center: true,
+        gutter: Math.min(tinyGapData, tinyGapData),
+        edgePadding: tinyEdgePaddingData,
+        preventScrollOnTouch: "force",
+        controls: tinyControlsData,
+        autoplay: tinyAutoplayData,
+        autoplayButtonOutput: tinyAutoplayButtonsData,
+        autoplayText: ['<i class="bi bi-play-fill"></i>', '<i class="bi bi-pause-fill"></i>'],
+        controlsText: ['<span class="bi bi-chevron-left" aria-hidden="true"></span>Prev', 'Next<span class="bi bi-chevron-right" aria-hidden="true"></span>'],
+      });
+    });
   }
 
   $(".tns-outer").each(function () {
     $(this).find(".tns-nav,[data-action]").wrapAll('<div class="nav-controls absolute"></div>');
   });
+// 
+//   $('#dropdownVerbs').change = function () {
+//     $(".tiny-slider").goTo('next');
+//   };
 
+// $(".tiny-slider").getInfo();
+
+// $('.next-button').onclick = function () {
+//   // get slider info
+//   var info = $(".tiny-slider").getInfo(),
+//       indexPrev = info.indexCached,
+//       indexCurrent = info.index;
+// 
+//   // update style based on index
+//   info.slideItems[indexPrev].classList.remove('active');
+//   info.slideItems[indexCurrent].classList.add('active');
+// };
+
+  // 
+  //    var gotoBtn = goto.querySelector('#dropdownVerbs'),
+  //     gotoInput = goto.querySelector('input');
+  // 
+  // gotoBtn.change = function () {
+  //   $(".tiny-slider").goTo('next');
+  // };
+  
+  // 
+  //    $("#dropdownVerbs").change(function() {
+  //     // Get the selected value
+  //     $(".tiny-slider").goTo('next');
+  //  
+  //   });
+   
   // Sets aria-labels for carousel buttons (Previous/Next)
   $('.tns-outer button[data-controls="prev"]').attr("aria-label", "Previous Slide");
   $('.tns-outer button[data-controls="next"]').attr("aria-label", "Next Slide");

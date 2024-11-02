@@ -92,13 +92,13 @@
 
 <script>
 	// #todo make toast work
-	const toastTrigger = document.getElementById('saveNewsItemBtn')
-	const toastSaved = document.getElementById('savedNewsItem')
-	
-	if (toastTrigger) {
-		const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastSaved)
-		toastTrigger.addEventListener('click', () => {
-			toastBootstrap.show()
-		})
-	}
+	// const toastTrigger = document.getElementById('saveNewsItemBtn')
+	// const toastSaved = document.getElementById('savedNewsItem')
+	// 
+	// if (toastTrigger) {
+	// 	const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastSaved)
+	// 	toastTrigger.addEventListener('click', () => {
+	// 		toastBootstrap.show()
+	// 	})
+	// }
 </script>

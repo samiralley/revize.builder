@@ -3,13 +3,13 @@
 		
 			 <div class="d-flex flex-column">
 				<div class="offcanvas-header d-lg-none bg-light">
-					<h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+					<h6 class="offcanvas-title" id="offcanvasLabel">Menu</h6>
 					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#rznavOffcanvas" aria-label="Close"></button>
 				</div>
 				<div class="sticky-top d-flex flex-column p-3 bg-body">
 					<a class="nav-link active mb-1 d-flex align-items-center" href="./"><span class="ki-duotone ki-home-2"><span class="path1"></span><span class="path2"></span></span>Dashboard</a>
 					
-					<a class="nav-link mb-1 d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly"><span class="ki-duotone ki-emoji-happy"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>Create Friendly Links</a>
+					<a class="nav-link mb-1 d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFriendly" aria-controls="offcanvasFriendly"><span class="ki-duotone ki-fasten"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>Create Friendly Links</a>
 					
 					<a class="nav-link mb-1 d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHidden" aria-controls="offcanvasHidden"><span class="ki-duotone ki-file-deleted"><span class="path1"></span><span class="path2"></span></span>Create Hidden Pages</a>
 					
@@ -40,8 +40,8 @@
 			</div>
 		 
 		<div class="upgrade mt-auto sticky-bottom text-center bg-body border-top p-3">
-			<a href="" class="btn btn-warning d-block btn-sm rounded-pill" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Upgrade now</a>
-			<p class="p-3 pb-0 m-0 v-small text-center text-muted">© 2024 by revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
+			<a href="" class="btn btn-warning d-block btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUpgrade" aria-controls="offcanvasUpgrade">Upgrade now</a>
+			<p class="p-2 pb-0 m-0 v-small text-muted">© <?php echo date("Y"); ?> revize.,<a href="https://www.revize.com/terms.php" target="_blank">Terms of use</a></p>
 		</div><!-- /.upgrade -->
 	</div><!-- /.left-col-inner -->
 </div><!-- /.left-col-warp -->	

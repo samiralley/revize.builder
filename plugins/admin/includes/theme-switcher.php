@@ -22,7 +22,7 @@
 		aria-expanded="false"
 		data-bs-toggle="dropdown"
 		aria-label="Toggle theme (auto)">
-		<svg class="bi my-1 theme-icon-active" width="1.25em" height="1.25em">
+		<svg class="bi my-1 theme-icon-active" width="1rem" height="1rem">
 			<use href="#circle-half"></use>
 		</svg>
 		<span class="visually-hidden" id="bd-theme-text">Toggle theme</span>

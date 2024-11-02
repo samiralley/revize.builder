@@ -8,7 +8,7 @@
 		<div class="center-col-wrap w-100 d-flex flex-column">
 			<div class="d-flex align-items-center justify-content-between border-bottom px-4 py-3">
 				<h1 class="h5 m-0">Edit list "News"</h1>
-				<a href="" class="icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 lh-1 rounded-circle fs-5"><i class="bi bi-gear"></i></span>News options and settings</a>
+				<a href="" class="icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 lh-1 rounded-circle fs-4"><span class="ki-duotone ki-setting"><span class="path1"></span><span class="path2"></span></span></span>Options and settings</a>
 			</div><!-- /.d-flex -->
 			<div class="saved-info position-relative" style="top:-1px">
 				<div data-bs-theme="dark" class="alert alert-dismissible fade show border-0 bg-success m-0 rounded-0 border-0 text-white" role="alert">
@@ -23,7 +23,7 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-3">
 							<h5 class="m-0">Gallery</h5>
-							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add new image or video</a>
+							<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a new image or video</a>
 						</div>
 						<div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-3" data-masonry='{"percentPosition": true, "itemSelector": ".rz-element-list"}'>
 							<div class="rz-element-list">
@@ -31,8 +31,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -52,8 +52,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -73,8 +73,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -94,8 +94,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -115,8 +115,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -136,8 +136,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -157,8 +157,8 @@
 									<div class="w-100 relative">
 										<div class="center-center">
 											<div class="rounded-3 d-flex gap-1 bg-body p-1 border border-tertiary">
-												<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-												<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+												<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 											</div>
 										</div><!-- /.center-center -->
 										<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded mb-2 border">
@@ -182,9 +182,9 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">News List & blog list</h5>
-							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add news article</a>
+							<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add news article</a>
 						</div>
-						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
+						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-3 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
 								<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded-2 border">
 								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">2</span>
@@ -197,8 +197,8 @@
 								<span class="small"><span class="text-muted">Date Crated:</span> June 12, 2024</span>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div><!-- /.d-flex -->
 
@@ -209,9 +209,9 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">Slides</h5>
-							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add slide</a>
+							<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add slide</a>
 						</div>
-						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
+						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-3 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
 								<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded-2 border">
 								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">2</span>
@@ -221,8 +221,8 @@
 								<p class="m-0"><span class="text-muted">Subtitle:</span><span class="fw-semibold"> Nulla vitae elit libero, a pharetra augue.</span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 					</div>
@@ -232,9 +232,9 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-2">
 							<h5 class="m-0">Staff Member</h5>
-							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a staff member</a>
+							<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Create staff member</a>
 						</div>
-						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
+						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-3 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
 								<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded-2 border">
 								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">2</span>
@@ -246,8 +246,8 @@
 								<p class="m-0 small"><span class="text-muted">Location:</span><span class="fw-semibold"> 123 street Detroit, MI</span><span class="text-muted"> Email:</span><span class="fw-semibold"> email@email.com</span><span class="text-muted"> Phone:</span><span class="fw-semibold"> 123-123-7827</span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 					</div>
@@ -257,9 +257,9 @@
 					<div class="list-wrap">
 						<div class="d-flex align-items-center justify-content-between mb-3">
 							<h5 class="m-0">Quick Links</h5>
-							<a href="" class="ms-auto mb-2 icon-link icon-link-hover btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center flex-shrink-0 p-1 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a quick link</a>
+							<a href="" class="ms-auto icon-link icon-link-hover btn btn-sm btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#editFormModal" style="--bs-icon-link-transform: rotate(90deg);"><span class="bi d-flex align-items-center justify-content-center flex-shrink-0 bg-light lh-1 rounded-circle w-h-24"><i class="bi bi-plus-lg"></i></span>Add a quick link</a>
 						</div>
-						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-4 rounded border mb-2">
+						<div class="d-flex flex-column flex-md-row gap-4 align-items-start p-3 rounded border mb-2">
 							<div style="width:64px;" class="flex-shrink-0 relative">
 								<img src="/revize/_assets_/images/no-image-slider-2.jpg" alt="" class="rounded-2 border">
 								<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">2</span>
@@ -273,8 +273,8 @@
 								<p class="m-0"><span class="text-muted">Link:</span><span class="fw-semibold"> <a href="https://www.revize.com/">https://www.revize.com</a></span></p>
 							</div>
 							<div class="rz-action-btns bg-body border border-tertiary p-1 rounded-3 ms-md-auto flex-shrink-0">
-								<span role="button" class="btn border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-5 lh-1"></i></span>
-								<span role="button" class="btn border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-5 lh-1 text-danger"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-edit"><i class="bi bi-pencil fs-6"></i></span>
+								<span role="button" class="btn btn-sm border border-tertiary rz-action-btns-delete" data-bs-toggle="modal" data-bs-target="#confirmAction"><i class="bi bi-trash3 fs-6 text-danger"></i></span>
 							</div><!-- /.rz-action-btns -->
 						</div>
 						<!-- /.list-wrap for quick links -->
