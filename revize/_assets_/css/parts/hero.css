@@ -503,39 +503,3 @@ ul.tiny-carousel {
 		transform: translateX(50%);
 	}
 }
- 
- 
- 
- 
- 
- .rz-iwantto-wrap{
-	 padding: 1rem 1rem 5rem!important;
-	 position:relative;
- background:#f2f2f2
- }
-	
- /* left arrow */
- .rz-iwantto-wrap .tns-outer button[data-controls="prev"] {
-		 position: absolute;
-	 bottom:0;
-	 left:10px;
- 
- }
- 
- /* right arrow */
- .rz-iwantto-wrap .tns-outer button[data-controls="next"] {
-		 position: absolute;
-	 bottom:0;
-	 right:10px;
-	 word-spacing:1rem
- }
- 
- .rz-iwantto-wrap .tns-controls{
- bottom:-50px;left:0;right:0;
-	 width:100%;
- }
- 
- .rz-iwantto-wrap .tns-outer button[disabled] {
- opacity: .3;
- cursor: default
- }
