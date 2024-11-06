@@ -1,283 +1,547 @@
-<!-- #done -->
-<div class="rz-element-wrapper rz-iwantto-wrapper has-edit-buttons">
 
+<!-- https://monterey.gov/ -->
+<!-- #done form https://migration.revize.com/revize/html_review/appletonwi/ -->
+<div class="rz-element-wrapper rz-iwantto-wrapper has-edit-buttons">
 	<div class="center-top">
 		<div class="rz-btns-container">
 			<span class="rzBtn rzBtn-sm">Edit</span>
 		</div>
 	</div>
 
-	<div class="rz-iwantto-wrap d-flex flex-column">
+	<div class="rz-iwantto-wrap">
 
-<div class="wizard-bar">
-	<div class="wizard-bar-want">I want to..</div>
-</div><!-- /.wizard-bar -->
+			<form id="actions" action="">
+				<div id="i-need-to">
+					<div class="label-select">
+						<label for="tabs"><span>1</span> <span>I need to...</span></label>
+						<div class="select-wrap">
+							<select name="tabs" id="tabs" form="actions" class="form-control form-select">
+								<option value="">Apply for</option>
+								<option value="">Find Information About</option>
+								<option value="">Get Help With</option>
+								<option value="">Pay For</option>
+								<option value="">Watch</option>
+							</select>
+						</div><!-- /.select-wrap -->
+					</div><!-- /.label-select -->
+				</div><!-- /#i-need-to -->
+				<div id="pay">
+					<div id="actions-tab">
 
- 
-<!-- 
-	data-controls-position="bottom" default
-	data-controls-position="center"
-	data-controls-position="center-overflow"
- -->
-<div class="iwantto-slider"
-	data-tiny-mode="carousel"
-	data-tiny-items="1"
-	data-tiny-items-md="1"
-	data-tiny-items-sm="1"
-	data-tiny-gap="0"
-	data-tiny-controls="true"
-	data-tiny-nav="true"
-	data-tiny-autoplay-buttons="false"
-	data-tiny-autoplay="false">
-	
- 				<div class="applyBx p-3">
-					<div class="applyHead filter-box-header">
-						<div class="sn">1</div>
-						<div class="snTitle">I Need To...</div>
-					</div><!--/.apply head-->
-					<div class="applyInfo">
-						<select class="form-control" id="dropdownVerbs">
-							<option name="action" value="1:Apply for">Apply for</option>
-							<option name="action" value="2:Pay">Pay</option>
-							<option name="action" value="3:Report">Report</option>
-							<option name="action" value="4:Request">Request</option>
-						</select>
-					</div><!--/.ApplyInfo-->
-				</div><!--/.applyBox-->
-				<div class="applyBx p-3">
-					<div class="applyHead">
-						<div class="sn">2</div>
-						<div class="snTitle" id="actionHeader">Pay</div>
-					</div><!--/.apply head-->
-					<div class="applyInfo">
-						<select class="form-control" id="dropdownActions">
-							<option name="action" value="Building Permit">Building Permit</option>
-							<option name="action" value="Business License">Business License</option>
-						</select>
-					</div><!--/.ApplyInfo-->
-				</div><!--/.applyBox-->
-				<div class="applyBx p-3">
-					<div class="applyHead">
-						<div class="sn">3</div>
-						<div class="snTitle" id="nowHeader">Pay a Building Permit</div>
-					</div><!--/.apply head-->
-					<div class="applyInfo">
-						<p id="para">Pretium tempor cursus sm at egestas lectus.</p>
-						<a href="/" class="applybtn btn btn-primary btn-block focus" id="actionButton">Apply Now</a>
-					</div><!--/.ApplyInfo-->
-				</div><!--/.applyBox-->
-</div>
- 	</div><!-- /.rz-iwantto-wrap -->
+						<div class="action-tab">
+							<div class="action-tab-inner">
+								<div class="label-select">
+									<label for="action-tab"><span>2</span> <span>Apply for...</span></label>
+									<div class="select-wrap">
+										<select name="action" id="action-tab-1" form="actions" onchange='changeLink(1);' class="form-control form-select">
+											<option selected value="#">Assembly Permit</option>
+											<option value="#">BBQ & Picnic Permit</option>
+											<option value="#">Board, Commission, or Committee</option>
+											<option value="#">Business License</option>
+											<option value="#">Dog License</option>
+											<option value="#">Film Permit</option>
+											<option value="#">Housing Loan or Grant</option>
+											<option value="#">Job Opportunity</option>
+											<option value="#">Parking Fine Waiver</option>
+											<option value="#">Recreation Online Account</option>
+											<option value="#">Special Event Permit</option>
+											<option value="#">Building or Planning Permit</option>
+										</select>
+
+									</div><!--/.select-wrap-->
+								</div><!-- /.label-select -->
+
+								<div class="action-link">
+									<label for="action-link"><span>3</span> <span>Apply</span></label>
+									<div class="action-links-titles-btn">
+										<div class="action-link-titles">
+											<span>Apply for a special event assembly permit.</span>
+											<span>Apply Now</span>
+											<span>Board, Commission, or Committee</span>
+											<span>Business License</span>
+											<span>Renew or Apply</span>
+											<span>Get a Film Permit</span>
+											<span>Find Housing Resources</span>
+											<span>Current Full or Part Time Job Opportunities</span>
+											<span>Request a Waiver</span>
+											<span>Sign up for Recreation Activities Online</span>
+											<span>Special Event Proposal Form</span>
+											<span>The Permits and the Process</span>
+										</div><!-- /.action-link-titles -->
+										<a href="#" class="btn btn-primary">Apply Now</a><!-- /.btn -->
+									</div><!-- /.action-links-titles-btn -->
+								</div><!-- /.action-link -->
+
+							</div><!-- /.action-tab-inner -->
+						</div><!-- /.action-tab -->
+						<div class="action-tab">
+							<div class="action-tab-inner">
+								<div class="label-select">
+									<label for="action-tab"><span>2</span> <span>Find Information About...</span></label>
+									<div class="select-wrap">
+										<select name="action" id="action-tab-2" form="actions" onchange='changeLink(2);' class="form-control form-select">
+
+											<option selected value="#">Accessibility</option>
+											<option value="/city_hall/community_development/sustainability/recycling/household,_business_and_multi-family_recycling.php">Apartment Recycling</option>
+											<option value="#">Bidding on an RFP</option>
+											<option value="#">City Budget</option>
+											<option value="#">City Communications</option>
+											<option value="#">City Council Meetings</option>
+											<option value="#">City Leasing and Property Management</option>
+											<option value="#">City Codes and Code Compliance</option>
+											<option value="#">Construction Projects</option>
+											<option value="#">Environmental Programs and Sustainability</option>
+											<option value="#">Filing a Claim</option>
+											<option value="#">Fiscal Transparency and Ballot Measures</option>
+											<option value="#">GIS Maps and Data</option>
+											<option value="#">Neighborhood & Community Improvement Program (NCIP)</option>
+											<option value="#">Parking Programs</option>
+											<option value="#">Parks and Beaches</option>
+											<option value="#">Plastic Bag Ban</option>
+											<option value="#">Recreation Programs</option>
+											<option value="#">Sports Center Programs</option>
+											<option value="#">Starting a Business</option>
+											<option value="#">Street Sweeping Schedule</option>
+											<option value="#">Taxi Voucher Program</option>
+											<option value="#">Traffic Calming Program</option>
+											<option value="#">COVID-19 in Monterey</option>
+										</select>
+
+									</div><!--/.select-wrap-->
+								</div><!-- /.label-select -->
+
+								<div class="action-link">
+									<label for="action-link"><span>3</span> <span>Information You Need</span></label>
+									<div class="action-links-titles-btn">
+										<div class="action-link-titles">
+											<span>Accessibility</span>
+											<span>Apartment Recycling</span>
+											<span>Bidding on an RFP</span>
+											<span>City Budget</span>
+											<span>Communications and Outreach</span>
+											<span>Monterey City Council</span>
+											<span>City Properties</span>
+											<span>Code Compliance Tips</span>
+											<span>Get the latest construction news.</span>
+											<span>Learn about City Green Actions.</span>
+											<span>How to file a claim with the City</span>
+											<span>Monterey aims for full transparency.</span>
+											<span>Property review and much more</span>
+											<span>A neighborhood improvement program for all residents.</span>
+											<span>Resident and Business Parking Programs</span>
+											<span>Amenities and more.</span>
+											<span>Choose to Reuse Single Use Carry Out Bags</span>
+											<span>We have something for everyone.</span>
+											<span>Check out all the classes and activities we have to offer!</span>
+											<span>Monterey is a great place to have a business</span>
+											<span>Monterey Disposal Service Map and Calendar</span>
+											<span>Managed through the Monterey Recreation Division</span>
+											<span>Traffic calming programs in neighborhoods</span>
+											<span>Get the latest on how Monterey is working to end the pandemic.</span>
+										</div><!-- /.action-link-titles -->
+										<a href="city_hall/finance/fiscal_transparency/city_budget.php" class="btn btn-primary">Get Information</a><!-- /.btn -->
+									</div><!-- /.action-links-titles-btn -->
+								</div><!-- /.action-link -->
+
+							</div><!-- /.action-tab-inner -->
+						</div><!-- /.action-tab -->
+						<div class="action-tab">
+							<div class="action-tab-inner">
+								<div class="label-select">
+									<label for="action-tab"><span>2</span> <span>Get Help With...</span></label>
+									<div class="select-wrap">
+										<select name="action" id="action-tab-3" form="actions" onchange='changeLink(3);' class="form-control form-select">
+											<option value="#">Public Records Request</option>
+											<option value="#">Home Remodels and Additions</option>
+											<option value="#">Finding a Meeting</option>
+											<option value="#">Reporting Illegal Dumping</option>
+											<option value="#">Reporting a Sewage Spill</option>
+											<option value="#">Finding a Lost Pet</option>
+											<option value="#">Signs for My Business</option>
+											<option value="#">Tree Removal</option>
+										</select>
+
+									</div><!--/.select-wrap-->
+								</div><!-- /.label-select -->
+
+								<div class="action-link">
+									<label for="action-link"><span>3</span> <span>Get Help Now</span></label>
+									<div class="action-links-titles-btn">
+										<div class="action-link-titles">
+											<span>Public Records Request</span>
+											<span>Building Permits and Safety</span>
+											<span>Find a Meeting</span>
+											<span>Find out how to report illegal dumping.</span>
+											<span>Find out how to report a sewage spill</span>
+											<span>Find your pet.</span>
+											<span>Sign Guidelines are part of the Zoning Code found in our Planning Office</span>
+											<span>Information from the Urban Forester</span>
+										</div><!-- /.action-link-titles -->
+										<a href="city_hall/city_manager/accessibility/index.php" class="btn btn-primary">Get Help</a><!-- /.btn -->
+									</div><!-- /.action-links-titles-btn -->
+								</div><!-- /.action-link -->
+
+							</div><!-- /.action-tab-inner -->
+						</div><!-- /.action-tab -->
+						<div class="action-tab">
+							<div class="action-tab-inner">
+								<div class="label-select">
+									<label for="action-tab"><span>2</span> <span>Pay For...</span></label>
+									<div class="select-wrap"> 
+										<select name="action" id="action-tab-4" form="actions" onchange='changeLink(4);' class="form-control form-select">
+											<option value="#">Beach Use Permit</option>
+											<option value="#">Business License or Renewal</option>
+											<option value="#">Dog License</option>
+											<option value="#">Parking Citation</option>
+											<option value="#">Library Charges Online</option>
+											<option value="#">Marina Slip Fee</option>
+											<option value="#">Parking Permit</option>
+										</select>
+
+									</div><!--/.select-wrap-->
+								</div><!-- /.label-select -->
+
+								<div class="action-link">
+									<label for="action-link"><span>3</span> <span>Pay</span></label>
+									<div class="action-links-titles-btn">
+										<div class="action-link-titles">
+											<span>Beach Use Permit</span>
+											<span>Business License or Renewal</span>
+											<span>Dog License</span>
+											<span>Parking Citation</span>
+											<span>Easy Pay Instructions</span>
+											<span>Pay your Marina/Harbor Account online</span>
+											<span>Permit, Resident Parking, or Disabled Parking Information</span>
+										</div><!-- /.action-link-titles -->
+										<a href="city_hall/parks___recreation/beaches,_parks___playgrounds/reservations___permits/beach_use_and_permits.php" class="btn btn-primary">Pay Now</a><!-- /.btn -->
+									</div><!-- /.action-links-titles-btn -->
+								</div><!-- /.action-link -->
+
+							</div><!-- /.action-tab-inner -->
+						</div><!-- /.action-tab -->
+						<div class="action-tab">
+							<div class="action-tab-inner">
+								<div class="label-select">
+									<label for="action-tab"><span>2</span> <span>Watch...</span></label>
+									<div class="select-wrap"> 
+										<select name="action" id="action-tab-5" form="actions" onchange='changeLink(5);' class="form-control form-select">
+											<option value="#">City Council Meetings</option>
+											<option value="#">Board, Commission, or Committee Meetings</option>
+											<option value="#">Mornings with the Manager</option>
+											<option value="#">City Produced Favorite Videos</option>
+										</select>
+
+									</div><!--/.select-wrap-->
+								</div><!-- /.label-select -->
+
+								<div class="action-link">
+									<label for="action-link"><span>3</span> <span>Monterey City Programming</span></label>
+									<div class="action-links-titles-btn">
+										<div class="action-link-titles">
+											<span>Watch Live or On-Demand on the Monterey Channel or on YouTube</span>
+											<span>Live or On-Demand on the Monterey Channel or on YouTube</span>
+											<span>Live or On-Demand on YouTube</span>
+											<span>On lots of fun and interesting topics!</span>
+										</div><!-- /.action-link-titles -->
+										<a href="./" class="btn btn-primary mw-min-content flex-shrink-0">Watch</a><!-- /.btn -->
+									</div><!-- /.action-links-titles-btn -->
+								</div><!-- /.action-link -->
+
+							</div><!-- /.action-tab-inner -->
+						</div><!-- /.action-tab -->
+					</div><!-- /#actions-tab -->
+				</div><!-- /#pay -->
+			</form><!-- /#actions -->
+
+	</div><!-- /.rz-iwantto-wrap -->
 
 </div><!-- /.rz-element-wrapper -->
 
-
 <script>
+	function changeLink(obj){
+			$(".action-link .btn").attr("href", $("#action-tab-" + obj).val());
+	}	
+// Select tabs
+	$( "#tabs" ).change(function() {
+		var tabIndex = $(this)[0].selectedIndex;
+		console.log(tabIndex);
+		$('.action-tab').stop().fadeOut(0);
+		$('.action-tab').eq(tabIndex).fadeIn(0);
+	});
+	$('#tabs').val(''); // Reset #tabs
+	$('#tabs').prop('selectedIndex',0); // Reset #tabs
 	
-	// First things first, fetch all of the dropdown channels.  We're going to do
-	// this the EE way, i.e the clever way.  Keep that in mind if notice that this
-	// part of the JS looks, well, strange
-	const dropdowns = [];
-	let filteredDropdowns = [];
+	$( "#action-tab-1" ).change(function() {
+		var tabIndex = $(this)[0].selectedIndex;
+		console.log(tabIndex);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').stop().fadeOut(0);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').eq(tabIndex).stop().fadeIn(0);
+	});
+	$('#action-tab-1').prop('selectedIndex',0); // Reset #action-tab-1
 	
-		dropdowns.push({
-			title: "Alarm Permit",
-		para: "Pretium tempor cursus sit phareas lectus.",
-			name: "Alarm Permit",
-			link: "/links",
-			categories: [1]
-	})
-		
-		dropdowns.push({
-			title: "Apply for Job Opportunities",
-		para: "Pretium tempor cursus sigestas lectus.",
-			name: "Job Opportunities",
-			link: "/how-to-apply",
-			categories: [1]
-		})
-	
-		dropdowns.push({
-			title: "Apply for a Parking Permit",
-		para: "Pretium tempor cursus sit pharetr egestas lectus.",
-			name: "Parking Permits",
-			link: "/",
-			categories: [1]
-		})
+	$( "#action-tab-2" ).change(function() {
+		var tabIndex = $(this)[0].selectedIndex;
+		console.log(tabIndex);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').stop().fadeOut(0);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').eq(tabIndex).stop().fadeIn(0);
+	});
+	$('#action-tab-2').prop('selectedIndex',0); // Reset #action-tab-2
 	
 	
-		dropdowns.push({
-			title: "Pay a Building Permit",
-		para: "Pretium tempor cursus sm at egestas lectus.",
-			name: "Building Permit",
-			link: "/",
-		categories: [2]
-		})
-	
-		dropdowns.push({
-			title: "Pay a Business License",
-		para: "Pretium tempor cursus sit pharetra egests lectus.",
-			name: "Business License",
-			link: "/",
-		categories: [2]
-		})
-	
-		dropdowns.push({
-			title: "Report a City Bus",
-		para: "Pretiums sit pharetra egestas. Quam ut orci felis praesent enim at egestas.",
-			name: "City Bus",
-			link: "/",
-		categories: [3]
-		})
-	
-		dropdowns.push({
-			title: "Report City Trail Concerns",
-		para: "Pretium tempor cursus sit pgestas lectus.",
-			name: "City Trail Concerns",
-			link: "/",
-			categories: [3]
-		})
-	
-		dropdowns.push({
-			title: "Report Construction without a Permit",
-		para: "Pretium tempor cursus sit phaas lectus.",
-			name: "Construction without a Permit",
-			link: "",
-			categories: [3]
-		})
-		dropdowns.push({
-			title: "Report a Dog Receptacle Station",
-		para: "Pretium tempor cursus sitt egestas lectus.",
-			name: "Dog Receptable Station",
-			link: "/",
-			categories: [3]
-		})
-	
-		dropdowns.push({
-			title: "Report an Encampment",
-		para: "Pretium tempor curnt enim at egestas lectus.",
-			name: "Encampment",
-			link: "/",
-			categories: [3]
-		})
-		dropdowns.push({
-			title: "Report Grafitti",
-		para: "Pretium tra egestas. Quam ut orci felis praesent enim at egestas lectus.",
-			name: "Grafitti",
-			link: "/",
-			categories: [3]
-		})
-	
-	dropdowns.push({
-			title: "Request a Business License",
-		para: "Pretium tempor cursus sis. Quam ut orci felis praesent enim at egestas lectus.",
-			name: "Business License",
-			link: "/",
-			categories: [4]
-		})
-	dropdowns.push({
-			title: "Pay a Court Order Payment",
-		para: "Pretium tempor cursus sit pharetra egestas. Quam ut o.",
-			name: "Court Order Payment",
-			link: "/",
-		categories: [4]
-		})
+	$( "#action-tab-3" ).change(function() {
+		var tabIndex = $(this)[0].selectedIndex;
+		console.log(tabIndex);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').stop().fadeOut(0);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').eq(tabIndex).stop().fadeIn(0);
+	});
+	$('#action-tab-3').prop('selectedIndex',0); // Reset #action-tab-3
 	
 	
-	// Right then, ugliest part is out of the way.  Let's assign everything that
-	// we'll need
-	const dropdownVerbs = document.getElementById("dropdownVerbs");
-	const dropdownActions = document.getElementById("dropdownActions");
-	const nowHeader = document.getElementById("nowHeader");
-	const para = document.getElementById("para");
-	const actionHeader = document.getElementById("actionHeader");
-	const actionButton = document.getElementById("actionButton");
-	
-	const parser = new DOMParser();
-	
-	// Then we'll define some functions
-	function filterActions(evt) {
-	
-		let category;
-		if (evt) {
-			evt.preventDefault();
-			category = evt.target.value.split(':');
-		} else {
-	
-			// Presumably called during initial page render.  No matter, just take the
-			// value of dropdownVerbs
-			category = dropdownVerbs.value.split(":");
-		}
-	
-		// Grab the category ID from the event as well as the name
-		if (category == '') {return;}
-	
-		// Reset the dropdowns and header
-		actionHeader.innerHTML = '';
-		while(dropdownActions.firstChild) {dropdownActions.removeChild(dropdownActions.firstChild);}
-	
-		const categoryID = category[0];
-		const categoryName = category[1]
-	
-		// Now let's filter all of our actions such that we only have those who with
-		// a matching id
-		filteredDropdowns = dropdowns.filter((dropdown) => {
-			return dropdown.categories.includes(parseInt(categoryID));
-		});
-	
-		// Let's populate actionDropdown with a no-value "verb" dropdown, as well as
-		// change the header to said verb.
-		actionHeader.innerHTML = categoryName;
-	
-		// And then we'll populate the actionDropdown with these results
-		filteredDropdowns.forEach((dropdown) => {
-	
-			const selectOption = parser.parseFromString(
-				`<option name="action" value="${dropdown.name}">${dropdown.name}</option>`,
-				'text/html'
-			);
-	
-			dropdownActions.appendChild(selectOption.querySelector('option'));
-	
-		});
-	
-		// We'll also want to generate a new header for the fullDropdownTitle based
-		// on the first filteredDropdown title
-		nowHeader.innerHTML = filteredDropdowns[0].title;
-		para.innerHTML = filteredDropdowns[0].para;
-		actionButton.href = filteredDropdowns[0].link;
-	
-	}
-	
-	// Triggered by the second dropdown.  Selects an action from a list of
-	// associated verbs
-	function selectAction(evt) {
-	
-		// Make sure the action is valid
-		if (evt.target.value == "") {return;}
-	
-		// Otherwise, we have the dropdown name, it's a simple matter of finding
-		// said name within the dropdowns array
-		for(let i = 0; i < filteredDropdowns.length; i ++) {
-	
-			const dropdown = filteredDropdowns[i];
-			if (dropdown.name == evt.target.value) {
-	
-				// Splendid, we have what we need.  What we'll do now is set
-				// fullDropdownTitle to the name of the the title, as well as set any
-				// appropriate links such that they have the page uri as a value
-				nowHeader.innerHTML = dropdown.title;
-				actionButton.href = dropdown.link;
-	
-				// We can also go ahead and exit early
-				return;
-			}
-		}
-	}
-	
-	dropdownVerbs.addEventListener('input', filterActions);
-	dropdownActions.addEventListener('input', selectAction);
-	filterActions();
-
-
- 
+	$( "#action-tab-4" ).change(function() {
+		var tabIndex = $(this)[0].selectedIndex;
+		console.log(tabIndex);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').stop().fadeOut(0);
+		$(this).parent().parent().siblings().children().children('.action-link-titles').find('span').eq(tabIndex).stop().fadeIn(0);
+	});
+	$('#action-tab-4').prop('selectedIndex',0); // Reset #action-tab-1	
 </script>
+
+<style>
+#actions,
+.action-tab-inner {
+	display: flex;
+	gap: 1rem
+}
+
+#i-need-to {
+	width: 340px;
+	background: #fff;
+	padding: 1rem;
+	position: relative;
+	border: 1px solid var(--bs-border-color);
+	border-radius: 8px
+}
+
+#pay {
+	background: #fff;
+	flex: 1
+}
+
+.action-tab-inner .label-select {
+	width: 340px;
+	max-width: 50%
+}
+
+.action-tab-inner .label-select,
+.action-tab-inner .action-link {
+	padding: 1rem;
+	position: relative;
+	border: 1px solid var(--bs-border-color);
+	border-radius: 8px;
+}
+
+#i-need-to {
+	align-items: center;
+	display: flex;
+	align-items: start;
+}
+
+#i-need-to .label-select {
+	align-items: center;
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	height: 100%;
+	width: 100%
+}
+
+#i-need-to .select-wrap {
+	width: 100%
+}
+
+.col-lg-7 #i-need-to .select-wrap,
+.col-lg-8 #i-need-to .select-wrap {
+	transform: translateY(-50%);
+	margin: auto;
+}
+
+.col-lg-7 .action-tab-inner,
+.col-lg-8 .action-tab-inner {
+	flex-wrap: wrap;
+	gap: 2rem
+}
+
+.col-lg-7 .action-tab-inner .label-select,
+.col-lg-7 .action-tab-inner .action-link,
+.col-lg-8 .action-tab-inner .label-select,
+.col-lg-8 .action-tab-inner .action-link {
+	width: 100% !important;
+	max-width: none
+}
+
+.action-link {
+	background: #fff;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-items: start;
+	flex: 1
+}
+
+.action-links-titles-btn {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	line-height: 1.4;
+	gap: 1rem
+}
+
+.action-links-titles-btn .btn {
+	min-width: max-content;
+	margin-left: auto
+}
+
+#actions label {
+	margin-bottom: 1rem;
+	display: flex;
+	margin-top: -2.75rem;
+	align-items: center;
+	width: 100%;
+}
+
+#actions label span:last-of-type {
+	padding: 0 .5rem 0 .5rem;
+	line-height: 1;
+	background: #fff
+}
+
+#actions label span:first-of-type {
+	display: inline-flex;
+	background: #fff;
+	border: 2px solid var(--bs-success);
+	background: var(--bs-success);
+	outline: 5px solid #fff;
+	line-height: 1;
+	border-radius: 100px;
+	align-items: center;
+	flex-shrink: 0;
+	width: 3rem;
+	height: 3rem;
+	justify-content: center;
+	font-size: 24px;
+	margin-bottom: .5rem;
+	color: #fff;
+}
+
+.action-tab-inner select,
+#i-need-to select {
+	padding-right: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.action-tab:first-of-type {
+	display: block
+}
+
+.action-tab {
+	display: none
+}
+
+.action-link-titles {
+	padding-right: 15px
+}
+
+.action-link-titles span:first-of-type {
+	display: block;
+}
+
+.action-link-titles span {
+	display: none;
+}
+
+/* .action-links-titles-btn{display:flex;align-items:center} */
+.col-lg-6 #actions,
+.col-lg-6 .action-tab-inner,
+.col-lg-5 #actions,
+.col-lg-5 .action-tab-inner,
+.col-lg-4 #actions,
+.col-lg-4 .action-tab-inner,
+.col-lg-3 #actions,
+.col-lg-3 .action-tab-inner,
+.col-lg-2 #actions,
+.col-lg-2 .action-tab-inner,
+.col-lg-1 #actions,
+.col-lg-1 .action-tab-inner {
+	flex-wrap: wrap;
+	gap: 2rem
+}
+
+.col-lg-6 .action-links-titles-btn,
+.col-lg-5 .action-links-titles-btn,
+.col-lg-4 .action-links-titles-btn,
+.col-lg-3 .action-links-titles-btn,
+.col-lg-2 .action-links-titles-btn,
+.col-lg-1 .action-links-titles-btn {
+	flex-wrap: wrap
+}
+
+.col-lg-6 .action-links-titles-btn .btn,
+.col-lg-5 .action-links-titles-btn .btn,
+.col-lg-4 .action-links-titles-btn .btn,
+.col-lg-3 .action-links-titles-btn .btn,
+.col-lg-2 .action-links-titles-btn .btn .col-lg-1 .action-links-titles-btn .btn {
+	width: 100%
+}
+
+.col-lg-6 #i-need-to,
+.col-lg-5 #i-need-to,
+.col-lg-4 #i-need-to,
+.col-lg-3 #i-need-to,
+.col-lg-2 #i-need-to,
+.col-lg-2 #i-need-to {
+	width: 100%
+}
+
+.col-lg-6 .action-tab-inner .label-select,
+.col-lg-6 .action-tab-inner .action-link,
+.col-lg-5 .action-tab-inner .label-select,
+.col-lg-5 .action-tab-inner .action-link,
+.col-lg-4 .action-tab-inner .label-select,
+.col-lg-4 .action-tab-inner .action-link,
+.col-lg-3 .action-tab-inner .label-select,
+.col-lg-3 .action-tab-inner .action-link,
+.col-lg-2 .action-tab-inner .label-select,
+.col-lg-2 .action-tab-inner .action-link,
+.col-lg-1 .action-tab-inner .label-select,
+.col-lg-1 .action-tab-inner .action-link {
+	width: 100%;
+	max-width: none
+}
+
+@media only screen and (max-width: 991px) {
+
+	#actions,
+	.action-tab-inner {
+		flex-direction: column;
+		gap: 2rem
+	}
+
+	#i-need-to,
+	#pay,
+	.action-tab-inner .label-select,
+	.action-tab-inner .action-link {
+		width: 100%;
+		max-width: none
+	}
+
+	.action-links-titles-btn {
+		flex-wrap: wrap
+	}
+
+	.action-links-titles-btn .btn {
+		width: 100%
+	}
+}
+</style>
