@@ -71,6 +71,10 @@
 					<p>Public Records Request</p>
 					<a class="btn btn-primary">Get help</a>
 				</div>
+				<div class="d-flex justify-content-end gap-2 pt-4">
+					<a href="" class="btn btn-outline-light">Back</a>
+					<a href="" class="btn btn-primary">Next</a>
+				</div><!-- /.d-flex -->
 			</div><!-- /.tab-pane -->
 		</div><!-- /.tab-content -->
 
