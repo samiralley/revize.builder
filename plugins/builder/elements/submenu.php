@@ -8,13 +8,15 @@
 	<div class="offcanvas-body p-0">
 		<div class="rz-element-wrapper rz-submenu-wrapper">
 			<div class="submenu-wrap">
-				<nav aria-labelledby="flyout-header">
+				<nav aria-labelledby="submenu-header" data-style="vertical">
+					<!-- data-style="vertical" //default
+					data-style="horizontal"  -->
 					<div class="submenu-header-wrap">
 						<h2 class="submenu-header">Section Name Here</h2>
 					</div>
 					<ul id="submenu">
-						<li><a href="./">Sem Inceptos Fermentum Vehicula Adipiscing</a></li>
-						<li><a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+						<li><a href="./">Sem Inceptos</a></li>
+						<li><a href="./">Lorem ipsumit.</a>
 							<ul>
 								<li><a href="./">Flyout link here</a></li>
 								<li><a href="./">Flyout link here</a></li>
@@ -24,16 +26,9 @@
 								<li><a href="./">Flyout link here</a></li>
 							</ul>
 						</li>
-						<li><a href="./">Maecenas sed diam eget risus varius blandit sit amet non.</a></li>
 						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
 						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
 						<li><span>Cras Ultricies Euismod Mattis</span></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
-						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
 						<li><a href="./">Cras Ultricies Euismod Mattis</a></li>
 					</ul><!-- /#submenu -->
 				</nav>

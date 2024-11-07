@@ -10,6 +10,7 @@
 	<div class="section-border section-border-top" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat; "></div>
 	<div class="section-border section-border-bottom" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat;"></div>
 
+					<?php include "../plugins/builder/elements/submenu.php"; ?>
 
 	<div id="freefrom-content-wrapper" class="position-relative z-3">
 		<div class="d-flex flex-wrap flex-lg-nowrap">
