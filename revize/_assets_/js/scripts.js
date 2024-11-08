@@ -710,44 +710,11 @@
   $(".tns-outer").each(function () {
     $(this).find(".tns-nav,[data-action]").wrapAll('<div class="nav-controls absolute"></div>');
   });
-// 
-//   $('#dropdownVerbs').change = function () {
-//     $(".tiny-slider").goTo('next');
-//   };
-
-// $(".tiny-slider").getInfo();
-
-// $('.next-button').onclick = function () {
-//   // get slider info
-//   var info = $(".tiny-slider").getInfo(),
-//       indexPrev = info.indexCached,
-//       indexCurrent = info.index;
-// 
-//   // update style based on index
-//   info.slideItems[indexPrev].classList.remove('active');
-//   info.slideItems[indexCurrent].classList.add('active');
-// };
-
-  // 
-  //    var gotoBtn = goto.querySelector('#dropdownVerbs'),
-  //     gotoInput = goto.querySelector('input');
-  // 
-  // gotoBtn.change = function () {
-  //   $(".tiny-slider").goTo('next');
-  // };
-  
-  // 
-  //    $("#dropdownVerbs").change(function() {
-  //     // Get the selected value
-  //     $(".tiny-slider").goTo('next');
-  //  
-  //   });
    
   // Sets aria-labels for carousel buttons (Previous/Next)
   $('.tns-outer button[data-controls="prev"]').attr("aria-label", "Previous Slide");
   $('.tns-outer button[data-controls="next"]').attr("aria-label", "Next Slide");
 
-  // You can also pass an optional settings object
   // below listed default settings
   AOS.init({
     // Global settings:
