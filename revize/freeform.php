@@ -15,6 +15,9 @@
 			<div class="col freeform-left-col-fill"></div>
 			<div class="col-side-wrap">
 				<div class="col-side h-100">
+					
+					<div class="sticky-lg-top">
+					
 					<?php include "../plugins/builder/elements/submenu.php"; ?>
 
 					<div data-aos="fade-up"
@@ -83,8 +86,9 @@
 
 						</div><!-- /.rz-staff-member-card -->
 					</div><!-- /.rz-staff-member-card-wrap -->
-
-				</div><!-- /.col-wrap -->
+					
+					</div><!-- /.sticky-top -->
+				</div><!-- /.col-side -->
 			</div><!-- /.col-side-wrap -->
 
 			<div class="col-post-wrap">

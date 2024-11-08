@@ -14,7 +14,7 @@ body {
 
 .rz-site-wrap {
 	position: relative;
-	overflow-x: hidden
+	overflow-x: clip
 }
 
 .rz-section-block {
@@ -378,6 +378,10 @@ fieldset:disabled .btn {
 }
 
 /*Freeform page*/
+.col-side .sticky-lg-top{
+	top:150px
+}
+
 .freeform-left-col-fill {
 	background: var(--rz-freeform-left-col-fill-bg)
 }
@@ -653,7 +657,8 @@ fieldset:disabled .btn {
 		width: 100%;
 		list-style: none;
 		padding: 0 0 0 .5rem;
-		display: none
+		display: none;
+		background:var(--bs-light)
 	}
 
 	#submenu ul a,
