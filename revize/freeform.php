@@ -10,8 +10,6 @@
 	<div class="section-border section-border-top" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat; "></div>
 	<div class="section-border section-border-bottom" style="height:30%;background-color:#000;mask:url(_assets_/images/borders/arc-divider.svg) center center / 100% 100% no-repeat;"></div>
 
-					<?php include "../plugins/builder/elements/submenu.php"; ?>
-
 	<div id="freefrom-content-wrapper" class="position-relative z-3">
 		<div class="d-flex flex-wrap flex-lg-nowrap">
 			<div class="col freeform-left-col-fill"></div>
@@ -102,7 +100,7 @@
 								<li class="breadcrumb-item active text-truncate" aria-current="page">Title of News item here Praesent commodo cursus magna</li>
 							</ol>
 						</nav>
-						<div class="post-content">
+						<div class="post-content h-100">
 							<p>Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 							<p>Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 							<p>Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -120,8 +118,10 @@
 						</div><!-- /.post-content -->
 					</div><!-- /#post -->
 				</div><!-- /.post-wrap -->
+				
 
 			</div><!-- /.col-lg-8 -->
+			
 			<div class="col freeform-right-col-fill"></div>
 		</div><!-- /.row -->
 	</div><!-- /.container -->

@@ -159,6 +159,12 @@
 	transition: var(--rz-transitions);
 }
 
+.form-floating > label{
+	display: flex;
+	align-items:center;
+	gap:.5rem
+}
+
 @media (prefers-reduced-motion: reduce) {
 	.form-control {
 		transition: none;
@@ -789,10 +795,6 @@ fieldset:disabled .btn {
 }
 
 .btn-close-white {
-	filter: var(--bs-btn-close-white-filter);
-}
-
-[data-bs-theme=dark] .btn-close {
 	filter: var(--bs-btn-close-white-filter);
 }
 

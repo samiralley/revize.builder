@@ -64,8 +64,9 @@
 					<?php //include "../plugins/builder/elements/slider.php"; ?>
 					<?php //include "../plugins/builder/elements/section-header.php"; ?>
 					<?php //include "../plugins/builder/elements/business-directory.php"; ?>
-					<?php include "../plugins/builder/elements/i-want-to.php"; ?>
-					<?php include "../plugins/builder/elements/wizard.php"; ?>
+					<?php //include "../plugins/builder/elements/i-want-to.php"; ?>
+					<?php //include "../plugins/builder/elements/wizard.php"; ?>
+					<?php include "../plugins/builder/elements/doc-center.php"; ?>
 
 					<?php //include "../plugins/builder/elements/marquee.php"; ?>
 

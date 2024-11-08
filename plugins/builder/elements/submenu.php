@@ -16,7 +16,7 @@
 					</div>
 					<ul id="submenu">
 						<li><a href="./">Sem Inceptos</a></li>
-						<li><a href="./">Lorem ipsumit.</a>
+						<li><a href="./">Lorem ipsumit. Lorem ipsum dolor sit amet leo semper pulvinar vivamus.</a>
 							<ul>
 								<li><a href="./">Flyout link here</a></li>
 								<li><a href="./">Flyout link here</a></li>
